@@ -1,10 +1,6 @@
 import React from "react";
 
-import {
-  HashRouter as Router,
-  Route,
-  } from 'react-router-dom';
-
+import { Switch, Route } from "react-router-dom";
 
 import Nav from "../../components/Nav";
 import Articles from "../Articles";
@@ -24,7 +20,7 @@ import logo from "../../assets/sk.png"
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Switch>
         <Route path="/" component={Home} exact />
         <Route path="/about-us" component={About} exact />
         <Route path="/events" component={Events} exact />
@@ -34,7 +30,7 @@ function App() {
 
         <Route path="/events/:id" component={Article} exact />
         <Route path="/category/:id" component={Category} exact />
-      </Router>
+      </Switch>
     </div>
   );
 }
