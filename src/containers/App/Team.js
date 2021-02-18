@@ -7,9 +7,9 @@ import Nav from './components/Nav'
 
 import logo from "../../assets/sk.png"
 
-import Mahadev from "../../assets/avatar/mahadev.png"
+import Shravan from "../../assets/avatar/mahadev.png"
 import Praveen from "../../assets/avatar/praveen.jpg"
-import Shravan from "../../assets/avatar/shravan.jpg"
+import Mahadev from "../../assets/avatar/shravan.jpg"
 import Shreya from "../../assets/avatar/shreya.png"
 import Krishnan from "../../assets/avatar/krishnan.jpg"
 import Vinaya from "../../assets/avatar/vinaya.png"
@@ -44,7 +44,7 @@ function Team() {
                     <div class="ui dimmer">
                       <div class="content">
                         <div class="center">
-                          <div class="ui inverted button">Add Friend</div>
+                          <div class="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
@@ -62,7 +62,7 @@ function Team() {
                     <div class="ui dimmer">
                       <div class="content">
                         <div class="center">
-                          <div class="ui inverted button">Add Friend</div>
+                          <div class="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
@@ -80,7 +80,7 @@ function Team() {
                     <div class="ui dimmer">
                       <div class="content">
                         <div class="center">
-                          <div class="ui inverted button">Add Friend</div>
+                          <div class="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
@@ -100,7 +100,7 @@ function Team() {
                     <div class="ui dimmer">
                       <div class="content">
                         <div class="center">
-                          <div class="ui inverted button">Add Friend</div>
+                          <div class="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
@@ -118,7 +118,7 @@ function Team() {
                     <div class="ui dimmer">
                       <div class="content">
                         <div class="center">
-                          <div class="ui inverted button">Add Friend</div>
+                          <div class="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
@@ -136,7 +136,7 @@ function Team() {
                     <div class="ui dimmer">
                       <div class="content">
                         <div class="center">
-                          <div class="ui inverted button">Add Friend</div>
+                          <div class="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
@@ -156,7 +156,7 @@ function Team() {
                     <div class="ui dimmer">
                       <div class="content">
                         <div class="center">
-                          <div class="ui inverted button">Add Friend</div>
+                          <div class="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
@@ -174,7 +174,7 @@ function Team() {
                     <div class="ui dimmer">
                       <div class="content">
                         <div class="center">
-                          <div class="ui inverted button">Add Friend</div>
+                          <div class="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
@@ -192,7 +192,7 @@ function Team() {
                     <div class="ui dimmer">
                       <div class="content">
                         <div class="center">
-                          <div class="ui inverted button">Add Friend</div>
+                          <div class="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
