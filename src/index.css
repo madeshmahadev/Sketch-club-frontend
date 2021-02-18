@@ -295,4 +295,7 @@ h1.ui.header {
 		.ui.stackable.grid .ui.vertical.divider {
     margin-top: 2rem;
 		}
+		.ui.center.aligned.header, .ui.centered.header {
+			padding: 10px;
+		}
   }
