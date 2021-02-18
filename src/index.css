@@ -164,7 +164,7 @@ body {
       }
 
 .ui.inverted.segment, .ui.primary.inverted.segment {
-      background: linear-gradient(to bottom, rgba(24, 174, 199,0.3), transparent, rgba(0,0,0,0.8) 96%), url(https://images.pexels.com/photos/194098/pexels-photo-194098.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+      background: linear-gradient(to bottom, rgba(24, 174, 199,0.3), transparent, rgba(0,0,0,0.8) 96%), url(https://res.cloudinary.com/madeshmahadev/image/upload/v1613644680/bg_37a6d83ec0.jpg);
       color: rgba(255,255,255,.9);
       background-size: cover;
       background-repeat: no-repeat;
