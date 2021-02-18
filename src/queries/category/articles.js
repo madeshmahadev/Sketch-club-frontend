@@ -4,17 +4,17 @@ const CATEGORY_ARTICLES_QUERY = gql`
   query Category($id: ID!) {
     category(id: $id) {
       id
-      name
+      Name
       articles {
         id
-        title
-        content
-        image {
+        Title
+        Content
+        Media {
           url
         }
         category {
           id
-          name
+          Name
         }
       }
     }

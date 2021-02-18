@@ -1,41 +1,298 @@
-a {
+body {
+      font-family: 'Inter', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-font-smoothing: grayscale;
+      }
+
+.ui.vertical.stripe h1, .ui.vertical.stripe h2, .ui.vertical.stripe h3, .ui.vertical.stripe h4, .ui.vertical.stripe p, .ui.vertical.stripe a {
+  font-family: 'Inter';
+}
+
+ .ui.vertical.stripe h3 {
+   color: black;
+ }
+
+      .hidden.menu {
+        display: none;
+      }
+
+      .masthead.segment {
+        min-height: 100vh;
+        padding: 1em 0em;
+      }
+
+      .masthead .logo.item img {
+        margin-right: 1em;
+      }
+
+      .masthead .ui.menu .ui.button {
+        margin-left: 0.5em;
+      }
+
+      .masthead h1.ui.header {
+        margin-top: 1.5em;
+        margin-bottom: 1.5em;
+        font-size: 2.6em;
+        font-weight: bold;
+      }
+
+      .masthead h2 {
+        font-size: 1.7em;
+        font-weight: normal;
+      }
+
+
+      .masthead .button{
+         margin-bottom: 2em;
+      }
+
+      .ui.vertical.stripe {
+        padding: 8em 0em;
+      }
+
+      .ui.vertical.stripe h3 {
+        font-size: 2em;
+      }
+
+      .ui.vertical.stripe .button + h3,
+      .ui.vertical.stripe p + h3 {
+        margin-top: 3em;
+      }
+
+      .ui.vertical.stripe .floated.image {
+        clear: both;
+      }
+
+      .ui.vertical.stripe p {
+        font-size: 1.33em;
+      }
+
+      .ui.vertical.stripe .horizontal.divider {
+        margin: 3em 0em;
+      }
+
+      .quote.stripe.segment {
+        padding: 0em;
+      }
+
+      .quote.stripe.segment .grid .column {
+        padding-top: 5em;
+        padding-bottom: 5em;
+      }
+
+      .footer.segment {
+        padding: 5em 0em;
+      }
+
+
+
+      @media only screen and (max-width: 700px) {
+        .ui.fixed.menu {
+          display: none !important;
+        }
+
+        .secondary.pointing.menu .item,
+        .secondary.pointing.menu .menu {
+          display: none;
+        }
+
+        .secondary.pointing.menu .toc.item {
+          display: block;
+        }
+
+        .masthead.segment {
+          min-height: 350px;
+        }
+
+        .masthead h1.ui.header {
+          font-size: 2em;
+          margin-top: 1.5em;
+        }
+
+        .masthead h2 {
+          margin-top: 0.5em;
+          font-size: 1.5em;
+        }
+      }
+
+      ::-webkit-scrollbar {
+      	width: 4px;
+      }
+
+      ::-webkit-scrollbar-track {
+      	background: #f9f9f9;
+      }
+      ::-webkit-scrollbar-thumb {
+      	background: #4ccaf2;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+      	background: #18aec7;
+      }
+      @media only screen and (max-width: 990px) {
+      	::-webkit-scrollbar {
+      		display: none;
+      	}
+      }
+
+
+      .ui.secondary.inverted.menu .link.item, .ui.secondary.inverted.menu a.item {
+          color: rgba(0,0,0,.7)!important;
+          font-family: 'Inter';
+      }
+
+
+      .ui.secondary.inverted.menu .active.item {
+          color: #000 !important;
+      }
+
+      .ui.secondary.inverted.pointing.menu .active.item {
+          border-color: #000;
+        }
+
+        .ui.inverted.button {
+          color: #000;
+              box-shadow: 0 0 0 2px #000 inset!important;
+        }
+
+      .ui.primary.button, .ui.primary.buttons .button {
+          background-color: #eee907;
+          color: black;
+          text-shadow: none;
+          background-image: none;
+          box-shadow: 2px 4px 6px 2px transparent inset, 0 0 0 0 rgb(34 36 38 / 15%) inset !important;
+      }
+
+.ui.inverted.segment, .ui.primary.inverted.segment {
+      background: linear-gradient(to bottom, rgba(24, 174, 199,0.3), transparent, rgba(0,0,0,0.8) 96%), url(https://images.pexels.com/photos/194098/pexels-photo-194098.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+      color: rgba(255,255,255,.9);
+      background-size: cover;
+      background-repeat: no-repeat;
+}
+
+.ui.secondary.inverted.pointing.menu {
+    border-width: unset;
+    border-color: unset;
+    border: none;
+}
+
+.masthead h1.ui.header {
+    margin-top: 2em;
+   font-family: 'Inter';
+   margin-bottom: 1.5em;
+   font-size: 2.5em;
+   font-weight: bold;
+   color: black;
+}
+
+.ui.inverted.divided.grid:not([class*="vertically divided"])>.column:not(.row), .ui.inverted.divided.grid:not([class*="vertically divided"])>.row>.column {
+    -webkit-box-shadow: -1px 0 0 0 rgb(0 0 0 / 10%);
+    box-shadow: -1px 0 0 0 rgb(0 0 0 / 10%);
+}
+
+.ui.inverted.header {
+    color: black;
+    font-family: 'Inter';
+}
+
+.ui.inverted.link.list .item, .ui.inverted.link.list .item a:not(.ui), .ui.inverted.link.list a.item {
+    color: rgba(0,0,0,.8);
+}
+
+.ui.vertical.segment:last-child {
+    border-bottom: none;
+    background: #18aec7;
+}
+
+.ui.button {
+    background: #18aec7 none;
+    color: rgba(255,255,255,.9);
+  }
+
+
+  .ui.menu .item>i.icon {
+    opacity: 1;
+    float: none;
+    margin: 0 .35714286em 0 0;
+    font-size: 1.3em;
+    color: black;
+    position: relative;
+    top: -3px;
+}
+
+
+.ui.placeholder.segment .column .button, .ui.placeholder.segment .column .field, .ui.placeholder.segment .column textarea, .ui.placeholder.segment .column>.ui.input {
+    max-width: 18rem;
+  }
+
+.ui.inverted.menu {
+    background: #2d2f2e;
+  }
+
+
+h1.ui.header {
+    font-size: 2.5rem;
+    color: black;
+    font-family: 'Inter';
+    margin-bottom: 1.5em;
+}
+
+.ui.header.motto {
+  font-family: 'Inter';
+  font-weight: 800;
+  text-transform: capitalize;
+  color: black;
+  margin-left: 30%;
+}
+
+
+.about-us-p {
+    color: black;
+    text-align: justify;
+    font-size: 1.2em;
+    font-family: 'Inter';
+}
+
+
+.social-media-link {
+  color: inherit;
   text-decoration: none;
-}
-
-h1 {
-  font-family: Staatliches;
-  font-size: 120px;
-}
-
-#category {
-  font-family: Staatliches;
-  font-weight: 500;
-}
-
-#title {
-  letter-spacing: 0.4px;
-  font-size: 22px;
-  font-size: 1.375rem;
-  line-height: 1.13636;
-}
-
-#banner {
-  margin: 20px;
-  height: 800px;
-}
-
-#editor {
-  font-size: 16px;
+  margin-right: 5em;
   font-size: 1rem;
-  line-height: 1.75;
+}
+.social-media-link:hover {
+  color: #18aec7;
 }
 
-.uk-navbar-container {
-  background: #fff !important;
-  font-family: Staatliches;
+.ui.circular.label, .ui.circular.labels .label {
+    min-width: 1em;
+    min-height: 1em;
+    vertical-align: unset !important;
+    margin-top: unset !important;
 }
 
-img:hover {
-  opacity: 1;
-  transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
+
+.article-content {
+    color: black;
+    text-align: left;
+    font-family: 'Inter';
 }
+
+.ui.card .image>.ribbon.label {
+    position: absolute;
+    top: 1rem;
+    left: -1rem;
+}
+
+  @media only screen and (max-width: 768px) {
+	  .masthead h1.ui.header {
+			margin-top: 0em;
+			font-size: 1.8em;
+		}
+	  .ui.secondary.inverted.pointing.menu {
+			display: block;
+		}
+		.ui.stackable.grid .ui.vertical.divider {
+    margin-top: 2rem;
+		}
+  }

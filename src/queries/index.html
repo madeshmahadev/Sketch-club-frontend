@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Milestone Metals Inc.</title>
+	<!--Style-->
+	<link rel="stylesheet" type="text/css" href="./style/reset.css">
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
+	<link rel="stylesheet" type="text/css" href="./style/style-responsive.css">
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet prefetch" type="text/css" href="./style/semantic.min.css">
+	<link rel='stylesheet' type="text/css" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+	<!--favicon -->
+	<link rel="canonical" href="/" />
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="./android-chrome-192x192.png">
+	<link rel="icon" type="image/png" sizes="512x512" href="./android-chrome-512x512.png">
+	<link rel="manifest" href="./site.webmanifest">
+
+
+
+
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+
+
+	<!--Reqd scripts -->
+	<script src="./script/jquery.min.js"></script>
+	<script src="./script/semantic.min.js"></script>
+</head>
+<body>
+
+	<div class="preloader" id="preloader">
+			<svg id="loader-svg"
+				xmlns="http://www.w3.org/2000/svg" viewBox="0 0 644 644">
+				<defs>
+					<style>.cls-1{fill:#fff;}</style>
+				</defs>
+				<g id="Layer_2" data-name="Layer 2">
+					<g id="Layer_1-2" data-name="Layer 1">
+						<path class="cls-1" d="M0,0H644V644H0ZM61.94,373.92c2.24,1.53,4.6,2.66,6.35,4.4q34.72,34.53,69.29,69.21,89.63,89.51,179.26,179c4.78,4.78,6.1,4.77,11-.11q31.2-31.29,62.35-62.61,55.2-55.29,110.45-110.52,36.72-36.74,73.51-73.41c7-7,8.81-5.92-.09-14.35-6.47-6.14-12.85-12.38-20.43-19.68,7.6-7.13,14.45-13.41,21.14-19.87,6.17-5.95,6.06-6-.15-12.3-5.93-6-11.79-12.05-18.39-18.8,6.73-6.49,13.11-12.56,19.39-18.72,5.26-5.15,5.23-5.21,0-10.42q-47-47-94-94L329.31,19.47c-6.33-6.33-9.11-6.37-15.54.07Q290.15,43.22,266.56,67,166.75,167,66.92,267c-4.51,4.52-4.52,4.58.18,9.11,6.45,6.2,13,12.34,19.78,18.82-6.21,6.43-11.42,12-16.84,17.38-7.26,7.19-7.34,7.13-.28,14.58,6.14,6.48,12.32,12.91,19.8,20.74Z"/>
+						<path class="loader-outer-icon" d="M61.94,373.92l27.62-26.26c-7.48-7.83-13.66-14.26-19.8-20.74-7.06-7.45-7-7.39.28-14.58C75.46,307,80.67,301.39,86.88,295c-6.82-6.48-13.33-12.62-19.78-18.82-4.7-4.53-4.69-4.59-.18-9.11Q166.73,167,266.56,67q23.63-23.68,47.21-47.42c6.43-6.44,9.21-6.4,15.54-.07L481.64,171.71q47,47,94,94c5.21,5.21,5.24,5.27,0,10.42-6.28,6.16-12.66,12.23-19.39,18.72,6.6,6.75,12.46,12.81,18.39,18.8,6.21,6.3,6.32,6.35.15,12.3-6.69,6.46-13.54,12.74-21.14,19.87,7.58,7.3,14,13.54,20.43,19.68,8.9,8.43,7.09,7.37.09,14.35q-36.79,36.67-73.51,73.41-55.25,55.25-110.45,110.52-31.22,31.26-62.35,62.61c-4.86,4.88-6.18,4.89-11,.11Q227.2,537,137.58,447.53q-34.65-34.61-69.29-69.21C66.54,376.58,64.18,375.45,61.94,373.92ZM421.26,213.61c1.89,1.69,3.12,2.69,4.24,3.81q41.26,41,82.48,82.12c10.65,10.63,10.48,10.57,21.11.21,3.27-3.18,3.32-5,0-8.32Q462.37,225,395.88,158.35c-23.19-23.19-46.47-46.29-69.53-69.61-3.42-3.46-5.48-4.33-8.94-.11s-8,8-12.05,12q-87.65,87.66-175.28,175.33c-6.45,6.45-13.15,12.66-18.9,18.17l14.42,15.62c1.22-1.16,2.45-2.28,3.62-3.45q45.06-45,90.1-90.08,49.27-49.31,98.5-98.65c2.74-2.75,5.31-3,8.1-.14q20.44,20.52,40.94,41c14.83,14.84,29.7,29.64,44.44,44.57,1.15,1.16,2.43,4,1.87,4.75-2.79,3.82-6.17,7.2-9.43,10.84-3.08-3.06-5.19-5.15-7.29-7.26-23.9-23.89-47.87-47.73-71.64-71.75-2.83-2.86-4.18-1.79-6.35.39q-26.06,26.2-52.25,52.3Q203.29,255.12,140.3,317.89c-3.11,3.09-3.05,5,.08,8,10.18,9.84,20.06,20,30.08,30,7.37,7.35,7.15,7.12.32,15.12-3.27,3.83-5.17,3.67-8.51.22-11.12-11.48-22.52-22.69-33.84-34-1.42-1.41-2.61-3.82-5.28-1.53-3.65,3.14-7.43,6.13-10.71,8.83L322,553.87,530.22,345.7c-2.67-2.81-5.75-5.81-8.55-9.06-2.39-2.77-4.07-2.19-6.43.19q-43.75,43.88-87.65,87.61Q377,474.92,326.43,525.39c-4.66,4.64-4.94,4.65-9.54,0q-70.08-70.14-140.11-140.34a36.3,36.3,0,0,1-2.61-3.6c6.32,0,11.62-.41,16.81.15,3,.33,6.64,1.46,8.71,3.51q59.1,58.53,117.78,117.48c3.46,3.48,5.26,3.39,8.64,0q87.48-87.78,175.18-175.32c5.59-5.58,5.56-5.55.07-11Q463.05,278,424.83,239.54c-1.63-1.65-3.24-4.09-3.41-6.28C421,227.16,421.26,221,421.26,213.61Zm122.33,145c-1.79,1.6-2.69,2.31-3.5,3.12Q471.33,430.35,402.58,499q-38.18,38.15-76.24,76.39c-3.49,3.53-5.94,3.76-9.34,0-5.77-6.44-11.8-12.65-17.91-18.77q-89-89.08-178-178.1c-6.68-6.67-13.43-13.26-19.74-19.49-5.15,5-9.86,9.61-14.75,14.38,1,1.06,1.94,2.18,3,3.22Q106.82,394,124.1,411.3q86,86,172,172c7.27,7.26,15.16,13.91,22.44,21.17,3.12,3.12,4.76,1.82,7.2-.62q86.34-86.43,172.78-172.76c18.26-18.25,36.45-36.57,54.8-54.72,2.73-2.7,3.14-4.43.08-7.18C550,366.06,547.08,362.37,543.59,358.56Zm13.59-87.8c-3.33-3.49-6-6.41-8.82-9.22q-31.79-31.81-63.6-63.58Q405.11,118.33,325.52,38.6c-3-3-4.77-2.8-7.6.1-13.4,13.68-27,27.18-40.51,40.72L90.15,266.53c-1.25,1.25-2.39,2.59-3.78,4.11,4.47,4.25,8.53,8.1,12.81,12.18.95-.82,2.11-1.72,3.15-2.75q56.4-56.26,112.78-112.56Q265.63,117,316,66.43c3-3,5.91-2.75,9-1.09a22.27,22.27,0,0,1,5,4Q429.85,169.17,529.57,269c4.8,4.81,9.19,10,13.55,14.82ZM99.75,334.83c4.7-4.51,8.25-7.75,11.53-11.23a3.51,3.51,0,0,0,.07-3.41c-3.67-4.47-7.58-8.74-11.41-13.07l-2.72-.38c-3.14,3.83-6.37,7.59-9.35,11.54a3.51,3.51,0,0,0-.13,3.32C91.61,326.12,95.71,330.44,99.75,334.83Zm457.63-14.9c-3.9-3.61-7-6.77-10.52-9.54a4.28,4.28,0,0,0-4.11,0,93.36,93.36,0,0,0-9.11,9.12c-.76.86-1.31,3.11-.79,3.7,3.12,3.54,6.58,6.77,10,10.21Z"/>
+						<path class="loader-inner-icon" d="M421.26,213.61c0,7.38-.3,13.55.16,19.65.17,2.19,1.78,4.63,3.41,6.28Q463,278,501.36,316.28c5.49,5.48,5.52,5.45-.07,11q-87.63,87.63-175.18,175.32c-3.38,3.39-5.18,3.48-8.64,0q-58.68-59-117.78-117.48c-2.07-2-5.68-3.18-8.71-3.51-5.19-.56-10.49-.15-16.81-.15a36.3,36.3,0,0,0,2.61,3.6q70,70.2,140.11,140.34c4.6,4.61,4.88,4.6,9.54,0Q377,474.93,427.59,424.44q43.86-43.79,87.65-87.61c2.36-2.38,4-3,6.43-.19,2.8,3.25,5.88,6.25,8.55,9.06L322,553.87,112.44,344.53c3.28-2.7,7.06-5.69,10.71-8.83,2.67-2.29,3.86.12,5.28,1.53,11.32,11.28,22.72,22.49,33.84,34,3.34,3.45,5.24,3.61,8.51-.22,6.83-8,7.05-7.77-.32-15.12-10-10-19.9-20.14-30.08-30-3.13-3-3.19-4.9-.08-8q63.06-62.71,125.91-125.64,26.16-26.12,52.25-52.3c2.17-2.18,3.52-3.25,6.35-.39,23.77,24,47.74,47.86,71.64,71.75,2.1,2.11,4.21,4.2,7.29,7.26,3.26-3.64,6.64-7,9.43-10.84.56-.76-.72-3.59-1.87-4.75-14.74-14.93-29.61-29.73-44.44-44.57q-20.49-20.49-40.94-41c-2.79-2.81-5.36-2.61-8.1.14q-49.23,49.35-98.5,98.65-45,45.06-90.1,90.08c-1.17,1.17-2.4,2.29-3.62,3.45L111.18,294.1c5.75-5.51,12.45-11.72,18.9-18.17Q217.76,188.3,305.36,100.6c4-4,8.48-7.61,12.05-12s5.52-3.35,8.94.11c23.06,23.32,46.34,46.42,69.53,69.61q66.58,66.57,133.22,133.08c3.31,3.3,3.26,5.14,0,8.32-10.63,10.36-10.46,10.42-21.11-.21q-41.19-41.12-82.48-82.12C424.38,216.3,423.15,215.3,421.26,213.61Zm-4.17,0-1.25-1.22c-2.34,1.61-5,2.89-7,4.87q-30.5,30.63-60.81,61.44c-3.91,4-7.77,8-12.54,12.86-.25-2.95-.46-4.37-.47-5.79-.14-22.66-.22-45.32-.44-68,0-1.56-1.05-3.11-1.61-4.66-1.56.7-3.51,1-4.62,2.15-17.05,17.34-33.94,34.83-50.95,52.2Q226,319.92,174.58,372.34c-1.14,1.16-1.57,3-2.33,4.54,1.53.41,3.05,1.14,4.59,1.16,12.66.1,25.32,0,38,.1,6.38.06,11.29-.38,16.48-6.32,13.89-15.9,29.41-30.37,44.31-45.38a29.45,29.45,0,0,1,2.94-2.23c0,6.19-.09,11.76,0,17.33a14.25,14.25,0,0,1-4.3,10.7c-6.17,6.52-12,13.39-17.84,20.21-1,1.17-1.41,2.84-2.08,4.27,1.5.45,3,1.27,4.51,1.28,13.33.1,26.67-.07,40,.13,5.69.08,9.84-.7,14.3-5.69,14.31-16,29.76-31,44.81-46.31,1.15-1.18,2.54-2.11,5.09-4.18,0,16.43,0,31.2,0,46a23.82,23.82,0,0,0,.94,7.35,4.75,4.75,0,0,0,3.51,2.64c15.49.18,31,.21,46.49,0,1.31,0,3.22-2,3.73-3.51.68-1.95.3-4.28.29-6.44q-.48-69-1-138C417.06,224.52,417.09,219.07,417.09,213.61Z"/>
+						<path class="cls-1" d="M543.59,358.56c3.49,3.81,6.41,7.5,9.85,10.6,3.06,2.75,2.65,4.48-.08,7.18-18.35,18.15-36.54,36.47-54.8,54.72q-86.42,86.35-172.78,172.76c-2.44,2.44-4.08,3.74-7.2.62-7.28-7.26-15.17-13.91-22.44-21.17q-86.1-85.9-172-172-17.3-17.3-34.54-34.66c-1-1-2-2.16-3-3.22,4.89-4.77,9.6-9.37,14.75-14.38,6.31,6.23,13.06,12.82,19.74,19.49q89,89,178,178.1C305.2,562.75,311.23,569,317,575.4c3.4,3.79,5.85,3.56,9.34,0q38-38.32,76.24-76.39,68.75-68.7,137.51-137.36C540.9,360.87,541.8,360.16,543.59,358.56Z"/>
+						<path class="cls-1" d="M557.18,270.76l-14.06,13.09c-4.36-4.79-8.75-10-13.55-14.82Q429.88,169.16,330.06,69.39a22.27,22.27,0,0,0-5-4c-3.11-1.66-6.06-1.89-9,1.09q-50.37,50.63-100.92,101.08-56.36,56.31-112.78,112.56c-1,1-2.2,1.93-3.15,2.75-4.28-4.08-8.34-7.93-12.81-12.18,1.39-1.52,2.53-2.86,3.78-4.11L277.41,79.42c13.54-13.54,27.11-27,40.51-40.72,2.83-2.9,4.57-3.14,7.6-.1Q405,118.39,484.76,198q31.8,31.8,63.6,63.58C551.16,264.35,553.85,267.27,557.18,270.76Z"/>
+						<path class="cls-1" d="M99.75,334.83c-4-4.39-8.14-8.71-12-13.23a3.51,3.51,0,0,1,.13-3.32c3-3.95,6.21-7.71,9.35-11.54l2.72.38c3.83,4.33,7.74,8.6,11.41,13.07a3.51,3.51,0,0,1-.07,3.41C108,327.08,104.45,330.32,99.75,334.83Z"/>
+						<path class="cls-1" d="M557.38,319.93l-14.5,13.49c-3.45-3.44-6.91-6.67-10-10.21-.52-.59,0-2.84.79-3.7a93.36,93.36,0,0,1,9.11-9.12,4.28,4.28,0,0,1,4.11,0C550.33,313.16,553.48,316.32,557.38,319.93Z"/>
+						<path d="M417.09,213.61c0,5.46,0,10.91,0,16.36q.48,69,1,138c0,2.16.39,4.49-.29,6.44-.51,1.47-2.42,3.49-3.73,3.51-15.5.24-31,.21-46.49,0a4.75,4.75,0,0,1-3.51-2.64,23.82,23.82,0,0,1-.94-7.35c-.08-14.78,0-29.55,0-46-2.55,2.07-3.94,3-5.09,4.18-15.05,15.34-30.5,30.31-44.81,46.31-4.46,5-8.61,5.77-14.3,5.69-13.33-.2-26.67,0-40-.13-1.5,0-3-.83-4.51-1.28.67-1.43,1.08-3.1,2.08-4.27,5.84-6.82,11.67-13.69,17.84-20.21a14.25,14.25,0,0,0,4.3-10.7c-.12-5.57,0-11.14,0-17.33a29.45,29.45,0,0,0-2.94,2.23c-14.9,15-30.42,29.48-44.31,45.38-5.19,5.94-10.1,6.38-16.48,6.32-12.66-.12-25.32,0-38-.1-1.54,0-3.06-.75-4.59-1.16.76-1.53,1.19-3.38,2.33-4.54q51.36-52.48,102.85-104.86c17-17.37,33.9-34.86,50.95-52.2,1.11-1.13,3.06-1.45,4.62-2.15.56,1.55,1.6,3.1,1.61,4.66.22,22.66.3,45.32.44,68,0,1.42.22,2.84.47,5.79,4.77-4.9,8.63-8.9,12.54-12.86q30.38-30.75,60.81-61.44c2-2,4.63-3.26,7-4.87Z" style="fill: #001644;"/>
+					</g>
+				</g>
+			</svg>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js'></script>
+	</div>
+
+	<!--Header-->
+	<div class="header-container ui">
+		<div class="container-bg"></div>
+		<header id="fullscreen">
+			<div class="ui secondary  menu">
+					<div class="logo" id="full"><a class="ajax-link" href="/"><img src="./assets/images/milestone-metals-logo.png" alt="Milestone Metals Logo" ></a></div>
+					<div class="right menu">
+							<a class="active item">
+						    Home
+						  </a>
+						  <a class="item">
+						    About us
+						  </a>
+						  <a class="item">
+						    News
+						  </a>
+							<a class="item">
+						    Gallery
+						  </a>
+							<a class="item" id="contact-us-nav-btn">
+						    Contact us
+						  </a>
+				  </div>
+				</div>
+		</header>
+		<div class="clear"></div>
+	<!--Content-->
+
+		<div class="content" id="ajax-content">
+			<div class="text-intro" id="site-type">
+				<h2>We're</h2>
+				<h1>Milestone</h1>
+				<h1>Metals Inc.</h1>
+				<p>One of the foremost miscellaneous metal contractors specialized in quality fabrication and erection of ornamental iron and a wide variety of other metals.  Our  wide range of customers are spread across the United States. Nothing is too difficult for us!</p>
+				<a href="/" class="explore-us-button"><span>Explore Us</span></a>
+			</div>
+		</div>
+		<!--Sidebar-->
+		<div id="ajax-sidebar">
+			<div class="home-sidebar-outer"></div>
+				<div class="home-sidebar" id="hero">
+					<div class="parallax-option" style="margin-left: 12rem;" data-jkit="[parallax:strength=0.8;axis=both]">
+						<div class="parallax parallax1"><img src="./assets/images/Layer 2.png"></div>
+					</div>
+					<div class="parallax-option" style="margin-left: 12rem;" data-jkit="[parallax:strength=0.3;axis=both]">
+						<div class="parallax parallax1"><img src="./assets/images/milestone-metals-inc.png"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Social Media -->
+		<div class="social-button-icon-container">
+			<a class="social-button-icon" href="/" target="_blank">
+	      <i class="fab fa-facebook-f"></i>
+	    </a>
+			<a class="social-button-icon" href="/" target="_blank">
+	      <i class="fab fa-linkedin"></i>
+	    </a>
+			<a class="social-button-icon" href="/" target="_blank">
+	      <i class="fab fa-instagram" aria-hidden="true"></i>
+	    </a>
+			<a class="social-button-icon" href="/" target="_blank">
+	      <i class="fab fa-twitter" aria-hidden="true"></i>
+	    </a>
+		</div>
+		<div class="plus-sign-container"></div>
+	</div>
+
+	<!-- Section-2 -->
+	<div class="ui two column doubling stackable grid container who-we-are" id="ajax-content-2">
+		<div class="column">
+					<h1 class="sub-title">Who <br> Are We</h1>
+		</div>
+		<div class="column">
+			<p>Welcome to [store name], your number one source for all
+			things [product, ie: shoes, bags, dog treats]. We're
+			dedicated to giving you the very best of [product], with a
+			focus on [three characteristics, ie: dependability, customer
+			service and uniqueness.Founded in [year] by [founder's
+			name], [store name] has come a long way from its
+			beginnings in United States.</p>
+		</div>
+	</div>
+
+
+
+	<div class="content our-mission" id="ajax-content">
+
+		<div class="blog-slider">
+		  <div class="blog-slider__wrp swiper-wrapper">
+		    <div class="blog-slider__item swiper-slide">
+		      <div class="blog-slider__img">
+
+		        <img src="https://images.pexels.com/photos/1474993/pexels-photo-1474993.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+		      </div>
+		      <div class="blog-slider__content">
+		        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+		        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+		        <a href="#" class="blog-slider__button">READ MORE</a>
+		      </div>
+		    </div>
+		    <div class="blog-slider__item swiper-slide">
+		      <div class="blog-slider__img">
+		        <img src="https://images.pexels.com/photos/1474993/pexels-photo-1474993.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+		      </div>
+		      <div class="blog-slider__content">
+		        <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
+		        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+		        <a href="#" class="blog-slider__button">READ MORE</a>
+		      </div>
+		    </div>
+
+		    <div class="blog-slider__item swiper-slide">
+		      <div class="blog-slider__img">
+		        <img src="https://images.pexels.com/photos/1474993/pexels-photo-1474993.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+		      </div>
+		      <div class="blog-slider__content">
+		        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+		        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+		        <a href="#" class="blog-slider__button">READ MORE</a>
+		      </div>
+		    </div>
+
+		  </div>
+		  <div class="blog-slider__pagination"></div>
+		</div>
+
+	</div>
+
+
+
+
+	<div class="ui four column doubling stackable grid container counters" id="ajax-content-2">
+		<div class="column">
+			<h2 class="counter" data-target="6000">0</h2>
+			<p>Employees</p>
+		</div>
+		<div class="column">
+			<h2 class="counter" data-target="6000">0</h2>
+			<p>Employees</p>
+		</div>
+		<div class="column">
+			<h2 class="counter" data-target="6000">0</h2>
+			<p>Employees</p>
+		</div>
+		<div class="column">
+			<h2 class="counter" data-target="6000">0</h2>
+			<p>Employees</p>
+		</div>
+	</div>
+
+
+	<div class="content our-mission" id="ajax-content">
+		<div class="text-intro">
+				<h1>Our Mission <br> & Vision</h1>
+					<div class="one-column">
+						<p>Welcome to [store name], your number one source for all
+						things [product, ie: shoes, bags, dog treats]. We're
+						dedicated to giving you the very best of [product], with a
+						focus on [three characteristics, ie: dependability, customer
+						service and uniqueness.Founded in [year] by [founder's
+						name], [store name] has come a long way from its
+						beginnings in a [starting location, ie: home office, toolshed,
+						Houston, TX.]. </p>
+					</div>
+							<div class="two-column">
+
+
+							</div>
+							<div class="clear"></div>
+					</div>
+	</div>
+
+
+
+	<div class="content testimonials" id="ajax-content">
+		<div class="text-intro">
+
+			<div class="testimonials-container">
+				<i class="fas fa-quote-left" style="color: white;"></i>
+				<p class="text" style="color:white"></p>
+
+				<div class="authors-container">
+					<div class="author selected"><img src="https://randomuser.me/api/portraits/men/41.jpg" alt=""></div>
+					<strong class="name" style="display: block; margin: 10px -10px;"></strong>
+				</div>
+			</div>
+
+<script>
+			const authorsEl = document.querySelectorAll('.author');
+const container = document.querySelector('.testimonials-container');
+const nameEl = document.querySelector('.name');
+const textEl = document.querySelector('.text');
+
+const testimonials = [{
+	text: 'I had my concerns that due to a tight deadline this project can\'t be done. But Florin proved me wrong not only he delivered an outstanding work but he managed to deliver 1 day prior to the deadline. And when I asked for some revisions he made them in MINUTES. I\'m looking forward to work with him again and I totally recommend him. Thanks again Florin!',
+	name: 'Ram, Founder',
+	color: '#001644'
+}];
+
+addTestimonial(0);
+
+authorsEl.forEach((author, idx) => {
+	author.addEventListener('click', (e) => {
+		addTestimonial(idx);
+		author.classList.add('selected');
+	})
+});
+
+function addTestimonial(idx) {
+	const testimonial = testimonials[idx];
+
+	nameEl.innerHTML = testimonial.name;
+	textEl.innerHTML = testimonial.text;
+	container.style.background = testimonial.color;
+	container.style.boxShadow = `0 35px 10px -20px ${testimonial.color.substring(0, testimonial.color.length-4)}0.9)`;
+
+	authorsEl.forEach(author => {
+		author.classList.remove('selected');
+	});
+}
+			</script>
+
+							<div class="two-column">
+
+							</div>
+							<div class="clear"></div>
+					</div>
+	</div>
+
+
+
+
+
+
+
+	<!--Footer-->
+  <footer>
+
+    <div class="footer-margin">
+      <div class="social-footer">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.behance.net/"><i class="fa fa-behance"></i></a>
+      </div>
+      <div class="copyright">© Copyright 2020 Milestone Metals Inc. All Rights Reserved.</div>
+    </div>
+  </footer>
+	<!-- Scripts -->
+
+
+	<script src="./script/jquery.easing.min.js"></script>
+	<script src="./script/modernizr.custom.42534.js" type="text/javascript"></script>
+	<script src="./script/jquery.waitforimages.js" type="text/javascript"></script>
+	<script src="./script/typed.js" type="text/javascript"></script>
+	<script src="./script/masonry.pkgd.min.js" type="text/javascript"></script>
+	<script src="./script/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+	<script src="./script/jquery.jkit.1.2.16.min.js"></script>
+	<script src="./script/script.js" type="text/javascript"></script>
+
+
+	<script>
+			const counters = document.querySelectorAll('.counter');
+			const speed = 2000; // The lower the slower
+
+			counters.forEach(counter => {
+				const updateCount = () => {
+					const target = +counter.getAttribute('data-target');
+					const count = +counter.innerText;
+					const inc = target / speed;
+					if (count < target) {
+						counter.innerText = count + inc;
+						setTimeout(updateCount, 1);
+					} else {
+						counter.innerText = target;
+					}
+				};
+
+				updateCount();
+			});
+	</script>
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+	<script>
+	var swiper = new Swiper('.blog-slider', {
+	      spaceBetween: 30,
+	      effect: 'fade',
+	      loop: true,
+				autoplay: true,
+	      mousewheel: {
+	        invert: false,
+	      },
+	      // autoHeight: true,
+	      pagination: {
+	        el: '.blog-slider__pagination',
+	        clickable: true,
+	      }
+	    });
+	</script>
+
+
+
+	<script>
+	$('#button, #buttons').on('click', function() {
+		$(".opacity-nav").fadeToggle("slow", "linear");
+	});
+	</script>
+</body>
+</html>

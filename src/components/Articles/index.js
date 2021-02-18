@@ -7,21 +7,15 @@ const Articles = ({ articles }) => {
   const rightArticles = articles.slice(leftArticlesCount, articles.length);
 
   return (
-    <div>
-      <div className="uk-child-width-1-2" data-uk-grid>
-        <div>
-          {leftArticles.map((article, i) => {
+    <div class="ui three stackable cards">
+
+
+          {articles.map((article, i) => {
             return <Card article={article} key={`article__${article.id}`} />;
           })}
-        </div>
-        <div>
-          <div className="uk-child-width-1-2@m uk-grid-match" data-uk-grid>
-            {rightArticles.map((article, i) => {
-              return <Card article={article} key={`article__${article.id}`} />;
-            })}
-          </div>
-        </div>
-      </div>
+
+
+
     </div>
   );
 };

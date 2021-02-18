@@ -1,10 +1,17 @@
 import React from "react";
 import { useParams } from "react-router";
 import Query from "../../components/Query";
+
+
 import ReactMarkdown from "react-markdown";
 import Moment from "react-moment";
 
+import Footer from "../App/components/Footer"
+import Nav from "../App/components/Nav"
+import SocialMedia from "../App/components/SocialMedia"
+
 import ARTICLE_QUERY from "../../queries/article/article";
+
 
 const Article = () => {
   let { id } = useParams();
@@ -13,29 +20,52 @@ const Article = () => {
       {({ data: { article } }) => {
         const imageUrl =
           process.env.NODE_ENV !== "development"
-            ? article.image.url
-            : process.env.REACT_APP_BACKEND_URL + article.image.url;
-        return (
-          <div>
-            <div
-              id="banner"
-              className="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light uk-padding uk-margin"
-              data-src={imageUrl}
-              data-srcset={imageUrl}
-              data-uk-img
-            >
-              <h1>{article.title}</h1>
-            </div>
+            ? article.Media.url
+            : process.env.REACT_APP_BACKEND_URL + article.Media.url;
 
-            <div className="uk-section">
-              <div className="uk-container uk-container-small">
-                <ReactMarkdown source={article.content} />
-                <p>
-                  <Moment format="MMM Do YYYY">{article.published_at}</Moment>
-                </p>
+        const gall = Object.values(article.Gallery);
+        const gallery = [];
+        for(var i in gall){ gallery.push(process.env.REACT_APP_BACKEND_URL+gall[i].url) }
+        return (
+
+          <div className="pusher">
+
+          <div className="ui inverted vertical masthead center aligned segment" style={{background:"unset", minHeight: "fit-content", marginBottom: "3rem"}}>
+            <Nav />
+            <div className="ui text container">
+              <img class="ui medium circular image" src={imageUrl} style={{margin: "auto"}} />
+              <h1 className="ui header massive label" style={{fontWeight: "900", textTransform: "uppercase"}}>{article.Title}</h1>
+
+              <div className="article-content">
+                <a class="ui teal ribbon label">
+                  {article.category.Name}
+                </a>
+                  <ReactMarkdown source={article.Content} />
+                    <div class="ui medium images">
+                          {
+                              Object.entries(gallery).map(([key, val]) =>
+                                        <img src={val} />
+                              )
+                          }
+                    </div>
+
+                    <div class="ui label" style={{marginTop: "2rem"}}>
+                      Published Date
+                      <div class="detail"><Moment format="MMM Do YYYY">{article.PublishedDate}</Moment></div>
+                    </div>
               </div>
             </div>
+            </div>
+
+
+
+            <SocialMedia />
+            <Footer />
           </div>
+
+
+
+
         );
       }}
     </Query>
