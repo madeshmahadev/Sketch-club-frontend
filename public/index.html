@@ -46,9 +46,11 @@
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+	<style>.cs-loader{position:absolute;top:0;left:0;height:100%;width:100%}.cs-loader-inner{transform:translateY(-50%);top:50%;left:10%;position:absolute;width:calc(100% - 200px);color:#000;padding:0 100px;text-align:center}.cs-loader-inner label{font-size:10px;opacity:0;display:inline-block}@keyframes lol{0%{opacity:0;transform:translateX(-300px)}33%{opacity:1;transform:translateX(0)}66%{opacity:1;transform:translateX(0)}100%{opacity:0;transform:translateX(300px)}}@-webkit-keyframes lol{0%{opacity:0;-webkit-transform:translateX(-300px)}33%{opacity:1;-webkit-transform:translateX(0)}66%{opacity:1;-webkit-transform:translateX(0)}100%{opacity:0;-webkit-transform:translateX(300px)}}.cs-loader-inner label:nth-child(6){-webkit-animation:lol 3s infinite ease-in-out;animation:lol 3s infinite ease-in-out}.cs-loader-inner label:nth-child(5){-webkit-animation:lol 3s .1s infinite ease-in-out;animation:lol 3s .1s infinite ease-in-out}.cs-loader-inner label:nth-child(4){-webkit-animation:lol 3s .2s infinite ease-in-out;animation:lol 3s .2s infinite ease-in-out}.cs-loader-inner label:nth-child(3){-webkit-animation:lol 3s .3s infinite ease-in-out;animation:lol 3s .3s infinite ease-in-out}.cs-loader-inner label:nth-child(2){-webkit-animation:lol 3s .4s infinite ease-in-out;animation:lol 3s .4s infinite ease-in-out}.cs-loader-inner label:nth-child(1){-webkit-animation:lol 3s .5s infinite ease-in-out;animation:lol 3s .5s infinite ease-in-out}@media only screen and (max-width:768px){.cs-loader-inner{width:unset}}</style>
   </head>
   <body>
     <noscript>This website is created using ReactJS. Hence, you would need to enable JavaScript to run this app.</noscript>
+	<div id="loader" class="cs-loader"><div class="cs-loader-inner"><label>●</label><label>●</label><label>●</label><label>●</label><label>●</label><label>●</label></div></div>
     <div id="root"></div>
     <script>
     $(document).ready(function() {
@@ -64,15 +66,9 @@
       });
       // create sidebar and attach to menu open
       $(".ui.sidebar").sidebar("attach events", ".toc.item");
-
-      $('.special.cards .image').dimmer({
-        on: 'hover'
-      });
-
       $('.team-cards .card .image').dimmer({
         on: 'hover'
       });
-
     });
   </script>
   </body>
