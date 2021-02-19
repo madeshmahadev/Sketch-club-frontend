@@ -6,7 +6,7 @@ const Card = ({ article }) => {
   const imageUrl =
     process.env.NODE_ENV !== "development"
       ? article.Media.url
-      : process.env.REACT_APP_BACKEND_URL + article.Media.url;
+      : "https://sketch-admin.herokuapp.com/" + article.Media.url;
   return (
 
 

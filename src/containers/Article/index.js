@@ -21,11 +21,11 @@ const Article = () => {
         const imageUrl =
           process.env.NODE_ENV !== "development"
             ? article.Media.url
-            : process.env.REACT_APP_BACKEND_URL + article.Media.url;
+            : "https://sketch-admin.herokuapp.com/" + article.Media.url;
 
         const gall = Object.values(article.Gallery);
         const gallery = [];
-        for(var i in gall){ gallery.push(process.env.REACT_APP_BACKEND_URL+gall[i].url) }
+        for(var i in gall){ gallery.push("https://sketch-admin.herokuapp.com/"+gall[i].url) }
         return (
 
           <div className="pusher">
