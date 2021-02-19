@@ -25,7 +25,7 @@ const Article = () => {
 
         const gall = Object.values(article.Gallery);
         const gallery = [];
-        for(var i in gall){ gallery.push("https://sketch-admin.herokuapp.com/"+gall[i].url) }
+        for(var i in gall){ gallery.push("https://sketch-admin.herokuapp.com"+gall[i].url) }
         return (
 
           <div className="pusher">
