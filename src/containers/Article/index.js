@@ -18,10 +18,7 @@ const Article = () => {
   return (
     <Query query={ARTICLE_QUERY} id={id}>
       {({ data: { article } }) => {
-        const imageUrl =
-          process.env.NODE_ENV !== "development"
-            ? article.Media.url
-            : "https://sketch-admin.herokuapp.com" + article.Media.url;
+        const imageUrl = "https://sketch-admin.herokuapp.com" + article.Media.url;
 
         const gall = Object.values(article.Gallery);
         const gallery = [];

@@ -3,10 +3,7 @@ import { Link } from "react-router-dom";
 import Moment from "react-moment";
 
 const Card = ({ article }) => {
-  const imageUrl =
-    process.env.NODE_ENV !== "development"
-      ? "https://sketch-admin.herokuapp.com" + article.Media.url;
-      : "https://sketch-admin.herokuapp.com" + article.Media.url;
+  const imageUrl = "https://sketch-admin.herokuapp.com" + article.Media.url;
   return (
 
 
