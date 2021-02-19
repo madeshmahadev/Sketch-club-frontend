@@ -39,7 +39,7 @@ export default class Contact extends Component {
 
 		var config = {
 		  method: 'post',
-		  url: 'https://sketch-admin.herokuapp.com/contacts',
+		  url: 'https://sketchclub.herokuapp.com/contacts',
 		  headers: {
 			'Content-Type': 'application/x-www-form-urlencoded'
 		  },

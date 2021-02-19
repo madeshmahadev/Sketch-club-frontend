@@ -44,7 +44,7 @@ export default class Join extends Component {
 
 		var config = {
 		  method: 'post',
-		  url: 'https://sketch-admin.herokuapp.com/join-uses',
+		  url: 'https://sketchclub.herokuapp.com/join-uses',
 		  headers: {
 			'Content-Type': 'application/x-www-form-urlencoded'
 		  },

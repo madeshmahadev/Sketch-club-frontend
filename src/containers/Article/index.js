@@ -18,11 +18,11 @@ const Article = () => {
   return (
     <Query query={ARTICLE_QUERY} id={id}>
       {({ data: { article } }) => {
-        const imageUrl = "https://sketch-admin.herokuapp.com" + article.Media.url;
+        const imageUrl = "https://sketchclub.herokuapp.com" + article.Media.url;
 
         const gall = Object.values(article.Gallery);
         const gallery = [];
-        for(var i in gall){ gallery.push("https://sketch-admin.herokuapp.com"+gall[i].url) }
+        for(var i in gall){ gallery.push("https://sketchclub.herokuapp.com"+gall[i].url) }
         return (
 
           <div className="pusher">

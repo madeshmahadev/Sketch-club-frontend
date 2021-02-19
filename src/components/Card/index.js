@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Moment from "react-moment";
 
 const Card = ({ article }) => {
-  const imageUrl = "https://sketch-admin.herokuapp.com" + article.Media.url;
+  const imageUrl = "https://sketchclub.herokuapp.com" + article.Media.url;
   return (
 
 
