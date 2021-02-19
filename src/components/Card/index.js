@@ -5,7 +5,7 @@ import Moment from "react-moment";
 const Card = ({ article }) => {
   const imageUrl =
     process.env.NODE_ENV !== "development"
-      ? article.Media.url
+      ? "https://sketch-admin.herokuapp.com" + article.Media.url;
       : "https://sketch-admin.herokuapp.com" + article.Media.url;
   return (
 
