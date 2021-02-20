@@ -24,9 +24,9 @@ function About() {
               <h1 className="ui header">We're Sketch!</h1>
               <p className="about-us-p">We are a Technical and Design Club of SRM IST Ramapuram, that conducts various workshops, technical events and mentorship programmes for students and members.</p>
               <p className="about-us-p">When Sketch was made, the idea was simple: to encourage our members to build their profile and help them lead their entrepreneurial organizations. We, at Sketch, have on our sleeves the expertise of graphic designing, web development, content writing, UI & UX and marketing. As we grow, our dedication to building an exceptional experience for our members is all we look forward to.</p>
-              <div className="ui huge primary button">
+              <a href="/join-us" ><div className="ui huge primary button">
                 Join our team <i className="right arrow icon"></i>
-              </div>
+              </div></a>
             </div>
           </div>
 
