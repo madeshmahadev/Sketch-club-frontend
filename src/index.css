@@ -238,11 +238,11 @@ h1.ui.header {
 }
 
 .ui.header.motto {
-  font-family: 'Inter';
+  font-family: 'Inter' !important;
   font-weight: 800;
   text-transform: capitalize;
-  color: black;
-  margin-left: 30%;
+  color: black !important;
+  margin-left: 30% !important;
 }
 
 
@@ -294,6 +294,8 @@ h1.ui.header {
 .ui.inverted.menu {
     background-color: #18aec7;
 }
+
+
 
   @media only screen and (max-width: 768px) {
 	  .masthead h1.ui.header {

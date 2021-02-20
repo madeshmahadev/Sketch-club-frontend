@@ -19,7 +19,6 @@ import ScriptTag from 'react-script-tag';
 import logo from "../../assets/sk.png"
 
 
-
 class App extends React.Component {
 	
    state = {
@@ -28,7 +27,6 @@ class App extends React.Component {
 
   componentDidMount() {
     this.fakeRequest().then(() => {
-		
       const el = document.querySelector("#loader");
       if (el) {
         el.remove();  
