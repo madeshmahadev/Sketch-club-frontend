@@ -1,10 +1,17 @@
 import React from "react";
 import logo from "../../../assets/sk.png"
 
+import Hamburger from './Hamburger'
+
+import ScriptTag from 'react-script-tag';
+
+
+
 
 function Nav() {
   return (
-
+	<>	
+	<ScriptTag type="text/javascript" isHydrating={true} src="content.js" />
           <div className="ui inverted vertical masthead center aligned segment" style={{background:"unset", minHeight: "fit-content", marginBottom: "3rem"}}>
             <div className="ui container">
               <div className="ui large secondary inverted pointing menu">
@@ -19,8 +26,8 @@ function Nav() {
               </div>
             </div>
           </div>
-
-
+		  <Hamburger />
+	</>
   );
 }
 

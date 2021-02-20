@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 import SocialMedia from "./components/SocialMedia"
 import Nav from './components/Nav'
+import Hamburger from './components/Hamburger'
 
 import logo from "../../assets/sk.png"
 
@@ -21,11 +22,8 @@ function Team() {
 
   return (
     <>
-          <div className="ui vertical inverted sidebar menu right">
-            <a className="item">Home</a> <a className="item">About</a>
-            <a className="item">Events</a> <a className="item">Contact</a>
-            <a className="item">Join us</a>
-          </div>
+		
+		  
           <div className="pusher">
 
           <div className="ui inverted vertical masthead center aligned segment" style={{background:"unset", minHeight: "fit-content", marginBottom: "3rem"}}>
@@ -37,171 +35,171 @@ function Team() {
           </div>
 
           <div className="ui text container"  style={{marginBottom: "5rem"}}>
-              <div class="ui three stackable cards team-cards">
+              <div className="ui three stackable cards team-cards">
 
-                <div class="card">
-                  <div class="blurring dimmable image">
-                    <div class="ui dimmer">
-                      <div class="content">
-                        <div class="center">
-                          <div class="ui inverted button">Contact</div>
+                <div className="card">
+                  <div className="blurring dimmable image">
+                    <div className="ui dimmer">
+                      <div className="content">
+                        <div className="center">
+                          <div className="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
                     <img src={Mahadev} />
                   </div>
-                  <div class="content">
-                    <a class="header">Madesh Mahadev</a>
-                    <div class="meta">
-                      <span class="date">President</span>
+                  <div className="content">
+                    <a className="header">Madesh Mahadev</a>
+                    <div className="meta">
+                      <span className="date">President</span>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="blurring dimmable image">
-                    <div class="ui dimmer">
-                      <div class="content">
-                        <div class="center">
-                          <div class="ui inverted button">Contact</div>
+                <div className="card">
+                  <div className="blurring dimmable image">
+                    <div className="ui dimmer">
+                      <div className="content">
+                        <div className="center">
+                          <div className="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
                     <img src={Praveen} />
                   </div>
-                  <div class="content">
-                    <a class="header">Praveen</a>
-                    <div class="meta">
-                      <span class="date">Communications	Chair.</span>
+                  <div className="content">
+                    <a className="header">Praveen</a>
+                    <div className="meta">
+                      <span className="date">Communications	Chair.</span>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="blurring dimmable image">
-                    <div class="ui dimmer">
-                      <div class="content">
-                        <div class="center">
-                          <div class="ui inverted button">Contact</div>
+                <div className="card">
+                  <div className="blurring dimmable image">
+                    <div className="ui dimmer">
+                      <div className="content">
+                        <div className="center">
+                          <div className="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
                     <img src={Shravan} />
                   </div>
-                  <div class="content">
-                    <a class="header">Shravan</a>
-                    <div class="meta">
-                      <span class="date">Event Chairperson</span>
+                  <div className="content">
+                    <a className="header">Shravan</a>
+                    <div className="meta">
+                      <span className="date">Event Chairperson</span>
                     </div>
                   </div>
                 </div>
 
 
-                <div class="card">
-                  <div class="blurring dimmable image">
-                    <div class="ui dimmer">
-                      <div class="content">
-                        <div class="center">
-                          <div class="ui inverted button">Contact</div>
+                <div className="card">
+                  <div className="blurring dimmable image">
+                    <div className="ui dimmer">
+                      <div className="content">
+                        <div className="center">
+                          <div className="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
                     <img src={Shreya} />
                   </div>
-                  <div class="content">
-                    <a class="header">Shreya Vedha</a>
-                    <div class="meta">
-                      <span class="date">Student Secretary</span>
+                  <div className="content">
+                    <a className="header">Shreya Vedha</a>
+                    <div className="meta">
+                      <span className="date">Student Secretary</span>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="blurring dimmable image">
-                    <div class="ui dimmer">
-                      <div class="content">
-                        <div class="center">
-                          <div class="ui inverted button">Contact</div>
+                <div className="card">
+                  <div className="blurring dimmable image">
+                    <div className="ui dimmer">
+                      <div className="content">
+                        <div className="center">
+                          <div className="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
                     <img src={Krishnan} />
                   </div>
-                  <div class="content">
-                    <a class="header">Krishnan</a>
-                    <div class="meta">
-                      <span class="date">Head of R&D</span>
+                  <div className="content">
+                    <a className="header">Krishnan</a>
+                    <div className="meta">
+                      <span className="date">Head of R&D</span>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="blurring dimmable image">
-                    <div class="ui dimmer">
-                      <div class="content">
-                        <div class="center">
-                          <div class="ui inverted button">Contact</div>
+                <div className="card">
+                  <div className="blurring dimmable image">
+                    <div className="ui dimmer">
+                      <div className="content">
+                        <div className="center">
+                          <div className="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
                     <img src={Vinaya} />
                   </div>
-                  <div class="content">
-                    <a class="header">Vinaya</a>
-                    <div class="meta">
-                      <span class="date">Treasurer</span>
+                  <div className="content">
+                    <a className="header">Vinaya</a>
+                    <div className="meta">
+                      <span className="date">Treasurer</span>
                     </div>
                   </div>
                 </div>
 
 
-                <div class="card">
-                  <div class="blurring dimmable image">
-                    <div class="ui dimmer">
-                      <div class="content">
-                        <div class="center">
-                          <div class="ui inverted button">Contact</div>
+                <div className="card">
+                  <div className="blurring dimmable image">
+                    <div className="ui dimmer">
+                      <div className="content">
+                        <div className="center">
+                          <div className="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
                     <img src={Giri} />
                   </div>
-                  <div class="content">
-                    <a class="header">Giridharan</a>
-                    <div class="meta">
-                      <span class="date">Head of Marketing</span>
+                  <div className="content">
+                    <a className="header">Giridharan</a>
+                    <div className="meta">
+                      <span className="date">Head of Marketing</span>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="blurring dimmable image">
-                    <div class="ui dimmer">
-                      <div class="content">
-                        <div class="center">
-                          <div class="ui inverted button">Contact</div>
+                <div className="card">
+                  <div className="blurring dimmable image">
+                    <div className="ui dimmer">
+                      <div className="content">
+                        <div className="center">
+                          <div className="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
                     <img src={Bharat} />
                   </div>
-                  <div class="content">
-                    <a class="header">Bharat Karthi</a>
-                    <div class="meta">
-                      <span class="date">Head of Photography</span>
+                  <div className="content">
+                    <a className="header">Bharat Karthi</a>
+                    <div className="meta">
+                      <span className="date">Head of Photography</span>
                     </div>
                   </div>
                 </div>
-                <div class="card">
-                  <div class="blurring dimmable image">
-                    <div class="ui dimmer">
-                      <div class="content">
-                        <div class="center">
-                          <div class="ui inverted button">Contact</div>
+                <div className="card">
+                  <div className="blurring dimmable image">
+                    <div className="ui dimmer">
+                      <div className="content">
+                        <div className="center">
+                          <div className="ui inverted button">Contact</div>
                         </div>
                       </div>
                     </div>
                     <img src={Gobind} />
                   </div>
-                  <div class="content">
-                    <a class="header">Gobind</a>
-                    <div class="meta">
-                      <span class="date">Executive Webmaster</span>
+                  <div className="content">
+                    <a className="header">Gobind</a>
+                    <div className="meta">
+                      <span className="date">Executive Webmaster</span>
                     </div>
                   </div>
                 </div>

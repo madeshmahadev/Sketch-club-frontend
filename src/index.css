@@ -284,6 +284,17 @@ h1.ui.header {
     left: -1rem;
 }
 
+.ui.inverted.icon.menu .item {
+    color: black;
+    font-family: 'Inter';
+    margin-top: 1rem;
+    /* font-weight: 600; */
+}
+
+.ui.inverted.menu {
+    background-color: #18aec7;
+}
+
   @media only screen and (max-width: 768px) {
 	  .masthead h1.ui.header {
 			margin-top: 0em;

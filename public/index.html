@@ -52,24 +52,5 @@
     <noscript>This website is created using ReactJS. Hence, you would need to enable JavaScript to run this app.</noscript>
 	<div id="loader" class="cs-loader"><div class="cs-loader-inner"><label>●</label><label>●</label><label>●</label><label>●</label><label>●</label><label>●</label></div></div>
     <div id="root"></div>
-    <script>
-    $(document).ready(function() {
-      // fix menu when passed
-      $(".masthead").visibility({
-        once: false,
-        onBottomPassed: function() {
-          $(".fixed.menu").transition("fade in");
-        },
-        onBottomPassedReverse: function() {
-          $(".fixed.menu").transition("fade out");
-        }
-      });
-      // create sidebar and attach to menu open
-      $(".ui.sidebar").sidebar("attach events", ".toc.item");
-      $('.team-cards .card .image').dimmer({
-        on: 'hover'
-      });
-    });
-  </script>
   </body>
 </html>

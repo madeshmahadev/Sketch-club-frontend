@@ -14,8 +14,11 @@ import Join from "./Join";
 import Events from "./Events";
 import Team from "./Team";
 
+import ScriptTag from 'react-script-tag';
 
 import logo from "../../assets/sk.png"
+
+
 
 class App extends React.Component {
 	
@@ -25,12 +28,14 @@ class App extends React.Component {
 
   componentDidMount() {
     this.fakeRequest().then(() => {
+		
       const el = document.querySelector("#loader");
       if (el) {
         el.remove();  
         this.setState({ loading: false }); 
       }
     });
+	
   }
 
   fakeRequest = () => {
@@ -43,7 +48,9 @@ class App extends React.Component {
 		}
 	
 	  return (
+	    
 		<div className="App">
+		  <ScriptTag type="text/javascript" src="/content.js" />
 		  <Switch>
 			<Route path="/" component={Home} exact />
 			<Route path="/about-us" component={About} exact />
