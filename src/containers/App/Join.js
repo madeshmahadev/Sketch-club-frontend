@@ -68,11 +68,6 @@ export default class Join extends Component {
 		const { firstname, lastname, emailaddress, contactno, team_int, description } = this.state;
   return (
     <>
-          <div className="ui vertical inverted sidebar menu right">
-            <a className="item">Home</a> <a className="item">About</a>
-            <a className="item">Events</a> <a className="item">Contact</a>
-            <a className="item">Join us</a>
-          </div>
           <div className="pusher">
 
           <div className="ui inverted vertical masthead center aligned segment" style={{background:"unset", minHeight: "fit-content", marginBottom: "3rem"}}>

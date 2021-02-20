@@ -18,12 +18,6 @@ function Home() {
 
   return (
     <>
-          <div className="ui vertical inverted sidebar menu right">
-            <a className="item">Home</a> <a className="item">About</a>
-            <a className="item">Events</a> <a className="item">Contact</a>
-            <a className="item">Join us</a>
-          </div>
-
           <div className="pusher">
             <Header />
             <HomeBodyContent />
