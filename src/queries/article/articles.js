@@ -6,7 +6,7 @@ const ARTICLES_QUERY = gql`
 	{
       id
       Title
-      category (sortBy: { field: "Name", order: DESC })
+      category
 	  {
         id
         Name
