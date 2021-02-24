@@ -2,13 +2,14 @@ import gql from "graphql-tag";
 
 const ARTICLES_QUERY = gql`
   query Articles {
-    articles (
-    order_by: {PublishedDate: desc}
-  )
+    articles
 	{
       id
       Title
-      category {
+      category (
+		order_by: { Name: desc}
+		)
+	  {
         id
         Name
       }
