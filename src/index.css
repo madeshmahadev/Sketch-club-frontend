@@ -302,6 +302,13 @@ h1.ui.header {
 			margin-top: 0em;
 			font-size: 1.8em;
 		}
+		
+		.ui.inverted.segment, .ui.primary.inverted.segment {
+			background: linear-gradient(to bottom, rgba(24, 174, 199,0.3), transparent, rgba(24,174,199,0.3) 45%), url(https://res.cloudinary.com/madeshmahadev/image/upload/v1613644680/bg_37a6d83ec0.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		
 	  .ui.secondary.inverted.pointing.menu {
 			display: block;
 		}
