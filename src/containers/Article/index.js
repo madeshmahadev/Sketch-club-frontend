@@ -7,7 +7,7 @@ import ReactMarkdown from "react-markdown";
 import Moment from "react-moment";
 
 import Footer from "../App/components/Footer"
-import Nav from './components/Nav'
+import Nav from "../App/components/Nav"
 import SocialMedia from "../App/components/SocialMedia"
 
 import ARTICLE_QUERY from "../../queries/article/article";
