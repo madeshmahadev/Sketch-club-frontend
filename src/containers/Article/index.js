@@ -31,7 +31,7 @@ const Article = () => {
             <Nav />
             <div className="ui text container">
               <img class="ui medium circular image" src={imageUrl} style={{margin: "auto"}} />
-              <h1 className="ui header massive label" style={{fontWeight: "900", textTransform: "uppercase"}}>{article.Title}</h1>
+              <h1 className="ui header massive label" id="article-massive-label" style={{fontWeight: "900", textTransform: "uppercase"}}>{article.Title}</h1>
 
               <div className="article-content">
                 <a class="ui teal ribbon label">

@@ -318,6 +318,10 @@ h1.ui.header {
 		.ui.center.aligned.header, .ui.centered.header {
 			padding: 10px;
 		}
+		
+		#article-massive-label {
+			margin-top: 2rem;
+		}
   }
   
   
