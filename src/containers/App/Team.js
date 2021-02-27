@@ -197,9 +197,9 @@ function Team() {
                     <img src={Gobind} />
                   </div>
                   <div className="content">
-                    <a className="header">Gobind</a>
+                    <a className="header">Gobind Singh</a>
                     <div className="meta">
-                      <span className="date">Executive Webmaster</span>
+                      <span className="date">Student Coordinator</span>
                     </div>
                   </div>
                 </div>
