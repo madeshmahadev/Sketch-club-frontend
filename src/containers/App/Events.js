@@ -16,7 +16,7 @@ function Events() {
 
           <div className="pusher">
 
-          <div className="ui inverted vertical masthead center aligned segment" style={{background:"unset", minHeight: "fill-content", marginBottom: "3rem"}}>
+          <div className="ui inverted vertical masthead center aligned segment" style={{background:"unset", minHeight: "fit-content", marginBottom: "3rem"}}>
             <Nav />
             <div className="ui text container">
               <h1 className="ui header">Our Events</h1>
