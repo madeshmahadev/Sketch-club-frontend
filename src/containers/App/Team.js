@@ -69,7 +69,7 @@ function Team() {
                   <div className="content">
                     <a className="header">Praveen</a>
                     <div className="meta">
-                      <span className="date">Communications	Chair.</span>
+                      <span className="date">Event Organizer</span>
                     </div>
                   </div>
                 </div>
@@ -87,7 +87,7 @@ function Team() {
                   <div className="content">
                     <a className="header">Shravan</a>
                     <div className="meta">
-                      <span className="date">Event Chairperson</span>
+                      <span className="date">Event Co-Organizer</span>
                     </div>
                   </div>
                 </div>
