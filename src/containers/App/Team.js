@@ -55,6 +55,26 @@ function Team() {
                     </div>
                   </div>
                 </div>
+	     
+	        <div className="card">
+                  <div className="blurring dimmable image">
+                    <div className="ui dimmer">
+                      <div className="content">
+                        <div className="center">
+                          <div className="ui inverted button">Contact</div>
+                        </div>
+                      </div>
+                    </div>
+                    <img src={Shreya} />
+                  </div>
+                  <div className="content">
+                    <a className="header">Shreya Vedha</a>
+                    <div className="meta">
+                      <span className="date">Student Secretary</span>
+                    </div>
+                  </div>
+                </div>
+	  
                 <div className="card">
                   <div className="blurring dimmable image">
                     <div className="ui dimmer">
@@ -74,24 +94,7 @@ function Team() {
                   </div>
                 </div>
 	  
-	        <div className="card">
-                  <div className="blurring dimmable image">
-                    <div className="ui dimmer">
-                      <div className="content">
-                        <div className="center">
-                          <div className="ui inverted button">Contact</div>
-                        </div>
-                      </div>
-                    </div>
-                    <img src={Shreya} />
-                  </div>
-                  <div className="content">
-                    <a className="header">Shreya Vedha</a>
-                    <div className="meta">
-                      <span className="date">Student Secretary</span>
-                    </div>
-                  </div>
-                </div>
+	        
 	  
                 <div className="card">
                   <div className="blurring dimmable image">
