@@ -155,7 +155,7 @@ export default class Join extends Component {
               <div class="field">
                 <label>Kindly choose among the following domains which fit the most to your passion.</label>
                 <select type="text" name="team_int" onChange={this.handleChange} required>
-                    <option value="Media">Media (Photograph/Cinematography)</option>
+                    <option value="Media">Media</option>
                     <option value="RnD">Research & Development</option>
                     <option value="Designing">Designing</option>
 		    <option value="Content Writing">Content Writing</option>
