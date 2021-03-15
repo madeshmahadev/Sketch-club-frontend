@@ -17,10 +17,13 @@ export default class Join extends Component {
     this.state = {
       firstname: '',
 	  lastname: '',
+	  regno: '',
+	  yearandsection: '',
 	  emailaddress: '',
 	  contactno: '',
 	  team_int: '',
-	  description: '',
+	  hobbies: '',
+	  strengthandweakness: ''
     }
   }
 
@@ -36,9 +39,12 @@ export default class Join extends Component {
 	  var data = qs.stringify({
 		'firstname': this.state.firstname ,
 		'lastname': this.state.lastname ,
+		'regno': this.state.regno ,
+		'yearandsection': this.state.yearandsection ,
 		'emailaddress': this.state.emailaddress,
 		'contactno': this.state.contactno ,
-		'description': this.state.description,
+		'hobbies': this.state.hobbies,
+		'strengthandweakness': this.state.strengthandweakness,
 		'team_int': this.state.team_int
 		});
 
@@ -121,6 +127,14 @@ export default class Join extends Component {
                 <input type="text" name="lastname" placeholder="Last Name" onChange={this.handleChange} required />
               </div>
               <div class="field">
+                <label>Last Name</label>
+                <input type="text" name="regno" placeholder="Registration Number" onChange={this.handleChange} required />
+              </div>
+              <div class="field">
+                <label>Last Name</label>
+                <input type="text" name="yearandsection" placeholder="Year & Section" onChange={this.handleChange} required />
+              </div>
+              <div class="field">
                 <label>Email Address</label>
                 <input type="text" name="emailaddress" placeholder="Email Address" onChange={this.handleChange} required />
               </div>
@@ -128,8 +142,18 @@ export default class Join extends Component {
                 <label>Contact</label>
                 <input type="tel" name="contactno" placeholder="Phone Number" onChange={this.handleChange} required />
               </div>
+
               <div class="field">
-                <label>Selet the team you are Interested</label>
+                <label>What are your hobbies? Do those hobbies differ from your passion?</label>
+                <textarea placeholder="Please click to type here" name="hobbies" onChange={this.handleChange} required></textarea>
+              </div>
+              <div class="field">
+                <label>What are your strengths and weaknesses?</label>
+                <textarea placeholder="Please click to type here" name="strengthandweakness" onChange={this.handleChange} required></textarea>
+              </div>
+			  
+              <div class="field">
+                <label>Kindly choose among the following domains which fit the most to your passion.</label>
                 <select type="text" name="team_int" onChange={this.handleChange} required>
                     <option value="Graphic Design">Graphic Design</option>
                     <option value="Research & Development">Research & Development</option>
@@ -138,10 +162,6 @@ export default class Join extends Component {
                     <option value="Marketing & Promotions">Marketing & Promotions</option>
                     <option value="Ambience Team">Ambience Team</option>
                 </select>
-              </div>
-              <div class="field">
-                <label>Tell us about yourself, why you want to join our club, and why this team.</label>
-                <textarea placeholder="Please click to type here" name="description" onChange={this.handleChange} required></textarea>
               </div>
               <button class="ui huge button" type="submit">Submit</button>
             </form>
