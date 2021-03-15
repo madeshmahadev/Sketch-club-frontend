@@ -127,11 +127,11 @@ export default class Join extends Component {
                 <input type="text" name="lastname" placeholder="Last Name" onChange={this.handleChange} required />
               </div>
               <div class="field">
-                <label>Last Name</label>
+                <label>Registration Number</label>
                 <input type="text" name="regno" placeholder="Registration Number" onChange={this.handleChange} required />
               </div>
               <div class="field">
-                <label>Last Name</label>
+                <label>Year & Section</label>
                 <input type="text" name="yearandsection" placeholder="Year & Section" onChange={this.handleChange} required />
               </div>
               <div class="field">
@@ -139,7 +139,7 @@ export default class Join extends Component {
                 <input type="text" name="emailaddress" placeholder="Email Address" onChange={this.handleChange} required />
               </div>
               <div class="field">
-                <label>Contact</label>
+                <label>Contact number</label>
                 <input type="tel" name="contactno" placeholder="Phone Number" onChange={this.handleChange} required />
               </div>
 
