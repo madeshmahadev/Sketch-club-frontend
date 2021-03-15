@@ -159,7 +159,7 @@ export default class Join extends Component {
                     <option value="RnD">Research & Development</option>
                     <option value="Designing">Designing</option>
 		    <option value="Content Writing">Content Writing</option>
-                    <option value="Organizing and PR"Organizing & PR</option>
+                    <option value="Organizing and PR">Organizing & PR</option>
                 </select>
               </div>
               <button class="ui huge button" type="submit">Submit</button>
