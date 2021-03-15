@@ -155,12 +155,11 @@ export default class Join extends Component {
               <div class="field">
                 <label>Kindly choose among the following domains which fit the most to your passion.</label>
                 <select type="text" name="team_int" onChange={this.handleChange} required>
-                    <option value="Graphic Design">Graphic Design</option>
+                    <option value="Media (Photograph/Cinematography)">Graphic Design</option>
                     <option value="Research & Development">Research & Development</option>
-                    <option value="Photography">Photography</option>
-                    <option value="Content Writing">Content Writing</option>
-                    <option value="Marketing & Promotions">Marketing & Promotions</option>
-                    <option value="Ambience Team">Ambience Team</option>
+                    <option value="Designing">Designing</option>
+		    <option value="Content Writing">Content Writing</option>
+                    <option value="Organizing & PR">Marketing & Promotions</option>
                 </select>
               </div>
               <button class="ui huge button" type="submit">Submit</button>
