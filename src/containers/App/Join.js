@@ -71,7 +71,7 @@ export default class Join extends Component {
 
 
 	render() {
-		const { firstname, lastname, emailaddress, contactno, team_int, description } = this.state;
+		const { firstname, lastname, emailaddress, contactno, team_int, hobbies, strengthandweakness, regno, yearandsection } = this.state;
   return (
     <>
           <div className="pusher">
