@@ -70,7 +70,7 @@ function Team() {
                   <div className="content">
                     <a className="header" href="https://www.instagram.com/srmsketch/" target="_blank">Shreya Vedha</a>
 	            <div className="meta">
-	              <span className="date">Secretary /</span>
+	              <span className="date">Secretary,</span>
                     </div>
                     <div className="meta">
                       <span className="date">Content Manager </span>
@@ -92,7 +92,7 @@ function Team() {
                   <div className="content">
                     <a className="header" href="https://www.instagram.com/cuckuduku/" target="_blank">Praveen</a>
                     <div className="meta">
-	              <span className="date">Event Chairperson /</span>
+	              <span className="date">Event Chairperson,</span>
                     </div>
                     <div className="meta">
                       <span className="date">Design Manager</span>
@@ -111,12 +111,12 @@ function Team() {
                         </div>
                       </div>
                     </div>
-                    <img src={Shravan} />
+                    <img src={Shravan}/>
                   </div>
                   <div className="content">
-                    <a className="header" href="https://www.instagram.com/shravan_2000/" target="_blank">Shravan /</a>
+                    <a className="header" href="https://www.instagram.com/shravan_2000/" target="_blank">Shravan</a>
                     <div className="meta">
-	              <span className="date">Executive Chairperson</span>
+	              <span className="date">Executive Chairperson,</span>
                     </div>
                     <div className="meta">
                       <span className="date">Organizing Manager</span>
@@ -214,8 +214,8 @@ function Team() {
                   <div className="content">
                     <a className="header" href="https://www.instagram.com/thegobindsingh/" target="_blank">Gobind Singh</a>
                     <div className="meta">
-                      <span className="date">Student Coordinator /</span>
-	  		<span className="date">Media Co-Manager /</span>
+                      <span className="date">Student Coordinator,</span>
+	  		<span className="date">Media Co-Manager,</span>
 	  		<span className="date">R&D Sub-Manager</span>
                     </div>
                   </div>
