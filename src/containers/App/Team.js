@@ -42,7 +42,9 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/madeshmahadev/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
+                          <div className="ui icon header">
+                    <a className="social-media-link" href="https://www.instagram.com/madeshmahadev/" target="_blank"><i className="instagram icon"></i></a>
+                  </div>
 	                </div>
                       </div>
                     </div>
