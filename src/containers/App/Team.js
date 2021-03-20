@@ -43,7 +43,7 @@ function Team() {
                       <div className="content">
                         <div className="center">
                           <div className="ui inverted button">Contact</div>
-	                     <a href="https://www.instagram.com/madeshmahadev/"></a>
+	                     <a href="https://www.instagram.com/madeshmahadev/" target="_blank"></a>
                         </div>
                       </div>
                     </div>
