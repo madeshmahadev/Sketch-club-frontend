@@ -8,9 +8,9 @@ import Hamburger from './components/Hamburger'
 
 import logo from "../../assets/sk.png"
 
-import Shravan from "../../assets/avatar/mahadev.png"
+import Shravan from "../../assets/avatar/shravan.png"
 import Praveen from "../../assets/avatar/praveen.jpg"
-import Mahadev from "../../assets/avatar/shravan.jpg"
+import Mahadev from "../../assets/avatar/mahadev.jpg"
 import Shreya from "../../assets/avatar/shreya.jpeg"
 import Krishnan from "../../assets/avatar/tarak.jpg"
 import Vinaya from "../../assets/avatar/vinaya.jpg"
