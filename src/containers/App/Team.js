@@ -42,7 +42,8 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button" href="https://www.instagram.com/madeshmahadev/">Contact</div>
+                          <div className="ui inverted button">Contact</div>
+	                     <a href="https://www.instagram.com/madeshmahadev/"></a>
                         </div>
                       </div>
                     </div>
