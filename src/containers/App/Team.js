@@ -70,7 +70,7 @@ function Team() {
                   <div className="content">
                     <a className="header">Shreya Vedha</a>
 	            <div className="meta">
-	              <span className="date">Secretary</span>
+	              <span className="date">Secretary /</span>
                     </div>
                     <div className="meta">
                       <span className="date">Content Manager </span>
@@ -92,7 +92,7 @@ function Team() {
                   <div className="content">
                     <a className="header">Praveen</a>
                     <div className="meta">
-	              <span className="date">Event Chairperson</span>
+	              <span className="date">Event Chairperson /</span>
                     </div>
                     <div className="meta">
                       <span className="date">Design Manager</span>
@@ -114,7 +114,7 @@ function Team() {
                     <img src={Shravan} />
                   </div>
                   <div className="content">
-                    <a className="header">Shravan</a>
+                    <a className="header">Shravan /</a>
                     <div className="meta">
 	              <span className="date">Executive Chairperson</span>
                     </div>
