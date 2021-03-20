@@ -49,7 +49,7 @@ function Team() {
                     <img src={Mahadev} />
                   </div>
                   <div className="content">
-                    <a className="header">Madesh Mahadev</a>
+                    <a className="header" href="https://www.instagram.com/madeshmahadev/" target="_blank">Madesh Mahadev</a>
                     <div className="meta">
                       <span className="date">President</span>
                     </div>
@@ -68,7 +68,7 @@ function Team() {
                     <img src={Shreya} />
                   </div>
                   <div className="content">
-                    <a className="header">Shreya Vedha</a>
+                    <a className="header" href="https://www.instagram.com/srmsketch/" target="_blank">Shreya Vedha</a>
 	            <div className="meta">
 	              <span className="date">Secretary /</span>
                     </div>
@@ -90,7 +90,7 @@ function Team() {
                     <img src={Praveen} />
                   </div>
                   <div className="content">
-                    <a className="header">Praveen</a>
+                    <a className="header" href="https://www.instagram.com/cuckuduku/" target="_blank">Praveen</a>
                     <div className="meta">
 	              <span className="date">Event Chairperson /</span>
                     </div>
@@ -114,7 +114,7 @@ function Team() {
                     <img src={Shravan} />
                   </div>
                   <div className="content">
-                    <a className="header">Shravan /</a>
+                    <a className="header" href="https://www.instagram.com/shravan_2000/" target="_blank">Shravan /</a>
                     <div className="meta">
 	              <span className="date">Executive Chairperson</span>
                     </div>
@@ -138,7 +138,7 @@ function Team() {
                     <img src={Krishnan} />
                   </div>
                   <div className="content">
-                    <a className="header">Tarak</a>
+                    <a className="header" href="https://www.instagram.com/srmsketch/" target="_blank">Tarak</a>
                     <div className="meta">
                       <span className="date">R&D Manager</span>
                     </div>
@@ -156,7 +156,7 @@ function Team() {
                     <img src={Vinaya} />
                   </div>
                   <div className="content">
-                    <a className="header">Vinaya</a>
+                    <a className="header" href="https://www.instagram.com/_vinn._/" target="_blank">Vinaya</a>
                     <div className="meta">
                       <span className="date">Treasurer</span>
                     </div>
@@ -176,7 +176,7 @@ function Team() {
                     <img src={Giri} />
                   </div>
                   <div className="content">
-                    <a className="header">Giridharan</a>
+                    <a className="header" href="https://www.instagram.com/im_d_haran/" target="_blank">Giridharan</a>
                     <div className="meta">
                       <span className="date">Marketing Manager</span>
                     </div>
@@ -194,7 +194,7 @@ function Team() {
                     <img src={Bharat} />
                   </div>
                   <div className="content">
-                    <a className="header">Bharat Karthi</a>
+                    <a className="header" href="https://www.instagram.com/srmsketch/" target="_blank">Bharat Karthi</a>
                     <div className="meta">
                       <span className="date">Media Manager</span>
                     </div>
@@ -212,9 +212,11 @@ function Team() {
                     <img src={Gobind} />
                   </div>
                   <div className="content">
-                    <a className="header">Gobind Singh</a>
+                    <a className="header" href="https://www.instagram.com/thegobindsingh/" target="_blank">Gobind Singh</a>
                     <div className="meta">
-                      <span className="date">Student Coordinator</span>
+                      <span className="date">Student Coordinator /</span>
+	  		<span className="date">Media Co-Manager /</span>
+	  		<span className="date">R&D Sub-Manager</span>
                     </div>
                   </div>
                 </div>
