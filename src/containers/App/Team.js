@@ -131,14 +131,14 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/srmsketch/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
+                          <div className="ui inverted button"><a href="https://www.instagram.com/tarakeswar11/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
                         </div>
                       </div>
                     </div>
                     <img src={Krishnan} />
                   </div>
                   <div className="content">
-                    <a className="header" href="https://www.instagram.com/srmsketch/" target="_blank">Tarak</a>
+                    <a className="header" href="https://www.instagram.com/tarakeswar11/" target="_blank">Tarak</a>
                     <div className="meta">
                       <span className="date">R&D Manager</span>
                     </div>
