@@ -70,7 +70,8 @@ function Team() {
                   <div className="content">
                     <a className="header">Shreya Vedha</a>
                     <div className="meta">
-                      <span className="date">Student Secretary</span>
+                      <span className="date">Content Manager</span>
+	              <span className="date">Secretary</span>
                     </div>
                   </div>
                 </div>
