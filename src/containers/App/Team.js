@@ -42,7 +42,7 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/madeshmahadev/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'6px'}}></i></a></div>
+                          <div className="ui inverted button"><a href="https://www.instagram.com/madeshmahadev/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
 	                </div>
                       </div>
                     </div>
@@ -61,7 +61,7 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/srmsketch/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'6px'}}></i></a></div>
+                          <div className="ui inverted button"><a href="https://www.instagram.com/srmsketch/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
                         </div>
                       </div>
                     </div>
@@ -83,7 +83,7 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/cuckuduku/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'6px'}}></i></a></div>
+                          <div className="ui inverted button"><a href="https://www.instagram.com/cuckuduku/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
                         </div>
                       </div>
                     </div>
@@ -107,7 +107,7 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/shravan_2000/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'6px'}}></i></a></div>
+                          <div className="ui inverted button"><a href="https://www.instagram.com/shravan_2000/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
                         </div>
                       </div>
                     </div>
@@ -131,7 +131,7 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/srmsketch/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'6px'}}></i></a></div>
+                          <div className="ui inverted button"><a href="https://www.instagram.com/srmsketch/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
                         </div>
                       </div>
                     </div>
@@ -149,7 +149,7 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/_vinn._/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'6px'}}></i></a></div>
+                          <div className="ui inverted button"><a href="https://www.instagram.com/_vinn._/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
                         </div>
                       </div>
                     </div>
@@ -169,7 +169,7 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/im_d_haran/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'6px'}}></i></a></div>
+                          <div className="ui inverted button"><a href="https://www.instagram.com/im_d_haran/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
                         </div>
                       </div>
                     </div>
@@ -187,7 +187,7 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/srmsketch/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'6px'}}></i></a></div>
+                          <div className="ui inverted button"><a href="https://www.instagram.com/srmsketch/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
                         </div>
                       </div>
                     </div>
@@ -205,7 +205,7 @@ function Team() {
                     <div className="ui dimmer">
                       <div className="content">
                         <div className="center">
-                          <div className="ui inverted button"><a href="https://www.instagram.com/thegobindsingh/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'6px'}}></i></a></div>
+                          <div className="ui inverted button"><a href="https://www.instagram.com/thegobindsingh/" target="_blank" style={{fontSize:'42px', color:'black' }}><i class="instagram icon" style={{paddingTop:'12px'}}></i></a></div>
                         </div>
                       </div>
                     </div>
