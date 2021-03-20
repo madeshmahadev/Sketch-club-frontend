@@ -69,11 +69,11 @@ function Team() {
                   </div>
                   <div className="content">
                     <a className="header">Shreya Vedha</a>
-                    <div className="meta">
-                      <span className="date">Content Manager </span>
-                    </div>
 	            <div className="meta">
 	              <span className="date">Secretary</span>
+                    </div>
+                    <div className="meta">
+                      <span className="date">Content Manager </span>
                     </div>
                   </div>
                 </div>
@@ -92,7 +92,10 @@ function Team() {
                   <div className="content">
                     <a className="header">Praveen</a>
                     <div className="meta">
-                      <span className="date">Event Organizer</span>
+	              <span className="date">Event Chairperson</span>
+                    </div>
+                    <div className="meta">
+                      <span className="date">Design Manager</span>
                     </div>
                   </div>
                 </div>
@@ -113,7 +116,10 @@ function Team() {
                   <div className="content">
                     <a className="header">Shravan</a>
                     <div className="meta">
-                      <span className="date">Event Co-Organizer</span>
+	              <span className="date">Executive Chairperson</span>
+                    </div>
+                    <div className="meta">
+                      <span className="date">Organizing Manager</span>
                     </div>
                   </div>
                 </div>
@@ -132,9 +138,9 @@ function Team() {
                     <img src={Krishnan} />
                   </div>
                   <div className="content">
-                    <a className="header">Krishnan</a>
+                    <a className="header">Tarak</a>
                     <div className="meta">
-                      <span className="date">Head of R&D</span>
+                      <span className="date">R&D Manager</span>
                     </div>
                   </div>
                 </div>
@@ -172,7 +178,7 @@ function Team() {
                   <div className="content">
                     <a className="header">Giridharan</a>
                     <div className="meta">
-                      <span className="date">Head of Marketing</span>
+                      <span className="date">Marketing Manager</span>
                     </div>
                   </div>
                 </div>
@@ -190,7 +196,7 @@ function Team() {
                   <div className="content">
                     <a className="header">Bharat Karthi</a>
                     <div className="meta">
-                      <span className="date">Head of Photography</span>
+                      <span className="date">Media Manager</span>
                     </div>
                   </div>
                 </div>
