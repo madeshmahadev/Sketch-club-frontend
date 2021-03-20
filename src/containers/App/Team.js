@@ -214,8 +214,12 @@ function Team() {
                   <div className="content">
                     <a className="header" href="https://www.instagram.com/thegobindsingh/" target="_blank">Gobind Singh</a>
                     <div className="meta">
-                      <span className="date">Student Coordinator</span>
-	  		<span className="date">Media Co-Manager</span>
+                      <span className="date">Student Coordinator,</span>
+                    </div>
+	  		<div className="meta">
+	  		<span className="date">Media Co-Manager,</span>
+                    </div>
+	  		<div className="meta">
 	  		<span className="date">R&D Sub-Manager</span>
                     </div>
                   </div>
