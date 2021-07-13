@@ -13,7 +13,7 @@ import Design from './components/anim/Design'
 import Develop from './components/anim/Develop'
 import Deliver from './components/anim/Deliver'
 
-function About() {
+function test() {
   return (
     <>
   
@@ -91,4 +91,4 @@ function About() {
   );
 }
 
-export default About;
+export default test;
