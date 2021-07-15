@@ -30,6 +30,10 @@ function Hamburger() {
 			<i className="smile icon"></i>
 			Contact
 		  </a>
+		  <a className="item" href="/stories">
+			<i className="smile icon"></i>
+			Stories
+		  </a>
 	</div>
 
   );
