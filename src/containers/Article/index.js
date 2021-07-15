@@ -37,7 +37,7 @@ const Article = () => {
                 <a class="ui teal ribbon label">
                   {article.category.Name}
                 </a>
-                  <ReactMarkdown source={article.Content} />
+                  <ReactMarkdown source={article.Content} linkTargets="_blank" />
                     <div class="ui medium images">
                           {
                               Object.entries(gallery).map(([key, val]) =>
