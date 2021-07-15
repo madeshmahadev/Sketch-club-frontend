@@ -9,10 +9,6 @@ import Nav from './components/Nav'
 
 import logo from "../../assets/sk.png"
 
-import Design from './components/anim/Design'
-import Develop from './components/anim/Develop'
-import Deliver from './components/anim/Deliver'
-
 function test() {
   return (
     <>
@@ -21,7 +17,7 @@ function test() {
             <div className="ui middle aligned stackable grid container">
               <div className="row">
                 <div className="eight wide column">
-                  <h3 className="ui header">Design.</h3>
+                  <h3 className="ui header">Stories.</h3>
                   <p style={{textAlign:"justify"}}>
                     Coming Soon...
                   </p>
