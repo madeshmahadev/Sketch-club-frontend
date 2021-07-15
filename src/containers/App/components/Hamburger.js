@@ -31,7 +31,7 @@ function Hamburger() {
 			Contact
 		  </a>
 		  <a className="item" href="/stories">
-			<i className="smile icon"></i>
+			<i className=""></i>
 			Stories
 		  </a>
 	</div>
