@@ -27,13 +27,9 @@ function test() {
                   </p>
                 </div>
                 <div className="six wide right floated column">
-                    <Design />
                 </div>
               </div>
             </div>
-          </div>
-            <SocialMedia />
-            <Footer />
           </div>
     </>
   );
