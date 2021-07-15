@@ -13,7 +13,7 @@ import Contact from "./Contact";
 import Join from "./Join";
 import Events from "./Events";
 import Team from "./Team";
-
+import Test from "./test";
 import ScriptTag from 'react-script-tag';
 
 import logo from "../../assets/sk.png"
@@ -56,7 +56,9 @@ class App extends React.Component {
 			<Route path="/contact-us" component={Contact} exact />
 			<Route path="/join-us" component={Join} exact />
 			<Route path="/team" component={Team} exact />
-
+			<Route path="/stories" component={Test} exact />
+			
+				
 			<Route path="/events/:id" component={Article} exact />
 			<Route path="/category/:id" component={Category} exact />
 		  </Switch>
