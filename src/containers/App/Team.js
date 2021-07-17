@@ -245,7 +245,7 @@ function Team() {
 
               </div>
           
-			<div>
+			<div style="background: unset; min-height: fit-content; margin-top: 5rem;">
 					<h3> Other Members: </h3>
 			</div>
 		</div>
