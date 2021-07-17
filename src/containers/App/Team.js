@@ -265,40 +265,40 @@ function Team() {
 							<tr>Snigdha R.P.</tr>
 							<tr>Vijeesh P.K.</tr>
 							<tr>Dinabandhu Maiti</tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
 						</td>
 						<td>
-							<tr>Aishwarya Tiwari</tr>
+							<tr>Aishwarya Tewari</tr>
 							<tr>Aishwarya Lakshmi</tr>
 							<tr>Khushi Bisani</tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
 						</td>
 						<td>
 							<tr>Gayathri</tr>
 							<tr>Poojha Ranganath</tr>
 							<tr>Aditya Subramanian</tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
 						</td>
 						<td>
 							<tr>Bhushan K.</tr>
 							<tr>Animesh</tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
-							<tr></tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
+							<tr> </tr>
 						</td>
 					</tbody>
 				</table>
