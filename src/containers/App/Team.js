@@ -260,6 +260,26 @@ function Team() {
 							<tr>Nikhil</tr>
 							<tr>Saswat Biswal</tr>
 						</td>
+						<td>
+							<tr>Charan Kumar</tr>
+							<tr>Snigdha R.P.</tr>
+							<tr>Vijeesh P.K.</tr>
+							<tr>Dinabandhu Maiti</tr>
+						</td>
+						<td>
+							<tr>Aishwarya Tiwari</tr>
+							<tr>Aishwarya Lakshmi</tr>
+							<tr>Khushi Bisani</tr>
+						</td>
+						<td>
+							<tr>Gayathri</tr>
+							<tr>Poojha Ranganath</tr>
+							<tr>Aditya Subramanian</tr>
+						</td>
+						<td>
+							<tr>Bhushan K.</tr>
+							<tr>Animesh</tr>
+						</td>
 					</tbody>
 				</table>
 			</div>
