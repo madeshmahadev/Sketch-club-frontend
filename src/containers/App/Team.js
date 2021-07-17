@@ -245,8 +245,8 @@ function Team() {
 
               </div>
           
-			<div style="margin-top: 5rem;">
-					<h3> Other Members: </h3>
+			<div >
+				<h3 style="margin-top: 5rem;"> Other Members: </h3>
 			</div>
 		</div>
             <SocialMedia />
