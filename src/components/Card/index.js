@@ -6,11 +6,11 @@ function col (article)
 {
   if(article.category.Name == "Upcoming Event")
     {
-      return(<div className="ui blue ribbon label">{article.category.Name}</div>);
+      return(<div className="ui gold ribbon label">{article.category.Name}</div>);
     }
   else
     {
-      return(<div className="ui yellow ribbon label">{article.category.Name}</div>);
+      return(<div className="ui teal ribbon label">{article.category.Name}</div>);
     }
 }
 
