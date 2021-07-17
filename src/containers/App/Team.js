@@ -281,7 +281,7 @@ function Team() {
 							<tr> </tr>
 						</td>
 						<td>
-							<tr>Gayathri</tr>
+							<tr>Gayathri T K</tr>
 							<tr>Poojha Ranganath</tr>
 							<tr>Aditya Subramanian</tr>
 							<tr> </tr>
