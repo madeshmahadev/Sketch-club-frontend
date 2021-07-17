@@ -207,7 +207,7 @@ function Team() {
                         </div>
                       </div>
                     </div>
-                    <img src= "https://instagram.fluh1-2.fna.fbcdn.net/v/t51.2885-19/s320x320/144821765_447209269743896_1635093150974355739_n.jpg?_nc_ht=instagram.fluh1-2.fna.fbcdn.net&_nc_ohc=BtAQjn7cCnEAX-K6to2&edm=ABfd0MgBAAAA&ccb=7-4&oh=c6112b89238de8fec7709b52dc7fe9ed&oe=60FA4CF4&_nc_sid=7bff83" />
+                    <img src= {Bharat} />
                   </div>
                   <div className="content">
                     <a className="header" href="https://www.instagram.com/kiddoo_boy/" target="_blank">Yogesh Waran</a>
