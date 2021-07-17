@@ -19,7 +19,7 @@ const Card = ({ article }) => {
   return (
                 <a class="ui card" href={`/events/${article.id}`}>
                   <div class="image">
-                   {col(article)}
+                   {col({article})}
                       <img src={imageUrl} alt={article.Title} />
                   </div>
                 </a>
