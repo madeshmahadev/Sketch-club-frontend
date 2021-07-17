@@ -250,16 +250,16 @@ function Team() {
 				<h3> Other Members: </h3>
 				<table>
 					<tbody>
-						<tr>
-							<td>Jhanvi Lamba</td>
-							<td>Sonali Biswal</td>
-							<td>Ramachandran A.</td>
-							<td>Kavya Saketharaman</td>
-							<td>Priyanga Durairaj</td>
-							<td>Keerthi Prithvi</td>
-							<td>Nikhil</td>
-							<td>Saswat Biswal</td>
-						</tr>
+						<td>
+							<tr>Jhanvi Lamba</tr>
+							<tr>Sonali Biswal</tr>
+							<tr>Ramachandran A.</tr>
+							<tr>Kavya Saketharaman</tr>
+							<tr>Priyanga Durairaj</tr>
+							<tr>Keerthi Prithvi</tr>
+							<tr>Nikhil</tr>
+							<tr>Saswat Biswal</tr>
+						</td>
 					</tbody>
 				</table>
 			</div>
