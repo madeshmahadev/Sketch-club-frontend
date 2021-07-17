@@ -12,7 +12,7 @@ import logo from "../../assets/sk.png"
 function test() {
   return (
     <>
-  
+        <Nav />
           <div className="ui vertical stripe segment">
             <div className="ui middle aligned stackable grid container">
               <div className="row">
@@ -26,6 +26,8 @@ function test() {
                 </div>
               </div>
             </div>
+              <SocialMedia />
+            <Footer />
           </div>
     </>
   );
