@@ -140,7 +140,7 @@ function Team() {
                       <div className="content">
                         <div className="center">
                           <div className="ui icon header">
-                    <a className="social-media-link" href="https://www.instagram.com/tarakeswar11/" target="_blank"><i className="instagram icon"></i></a>
+                    <a className="social-media-link" href="https://www.instagram.com/tarakeswar.n/" target="_blank"><i className="instagram icon"></i></a>
                   </div>
                         </div>
                       </div>
