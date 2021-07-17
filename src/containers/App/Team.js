@@ -212,7 +212,7 @@ function Team() {
                   <div className="content">
                     <a className="header" href="https://www.instagram.com/kiddoo_boy/" target="_blank">Yogesh Waran</a>
                     <div className="meta">
-                      <span className="date">Media Manager</span>
+                      <span className="date">Media Co-Manager</span>
                     </div>
                   </div>
                 </div>
