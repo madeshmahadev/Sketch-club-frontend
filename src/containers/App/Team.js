@@ -202,15 +202,15 @@ function Team() {
                       <div className="content">
                         <div className="center">
                           <div className="ui icon header">
-                    <a className="social-media-link" href="https://www.instagram.com/srmsketch/" target="_blank"><i className="instagram icon"></i></a>
+                    <a className="social-media-link" href="https://www.instagram.com/kiddoo_boy/" target="_blank"><i className="instagram icon"></i></a>
                   </div>
                         </div>
                       </div>
                     </div>
-                    <img src={Bharat} />
+                    <img src= "https://instagram.fluh1-2.fna.fbcdn.net/v/t51.2885-19/s320x320/144821765_447209269743896_1635093150974355739_n.jpg?_nc_ht=instagram.fluh1-2.fna.fbcdn.net&_nc_ohc=BtAQjn7cCnEAX-K6to2&edm=ABfd0MgBAAAA&ccb=7-4&oh=c6112b89238de8fec7709b52dc7fe9ed&oe=60FA4CF4&_nc_sid=7bff83" />
                   </div>
                   <div className="content">
-                    <a className="header" href="https://www.instagram.com/srmsketch/" target="_blank">Bharat Karthi</a>
+                    <a className="header" href="https://www.instagram.com/kiddoo_boy/" target="_blank">Yogesh Waran</a>
                     <div className="meta">
                       <span className="date">Media Manager</span>
                     </div>
