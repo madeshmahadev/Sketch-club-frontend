@@ -245,7 +245,9 @@ function Team() {
 
               </div>
           </div>
-
+		<div>
+				<h3> Other Members: </h3>
+		</div>
 
             <SocialMedia />
             <Footer />
