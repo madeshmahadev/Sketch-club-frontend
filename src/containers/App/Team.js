@@ -248,6 +248,20 @@ function Team() {
 			<div >
 				<br></br>
 				<h3> Other Members: </h3>
+				<table>
+					<tbody>
+						<tr>
+							<td>Jhanvi Lamba</td>
+							<td>Sonali Biswal</td>
+							<td>Ramachandran A.</td>
+							<td>Kavya Saketharaman</td>
+							<td>Priyanga Durairaj</td>
+							<td>Keerthi Prithvi</td>
+							<td>Nikhil</td>
+							<td>Saswat Biswal</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
             <SocialMedia />
