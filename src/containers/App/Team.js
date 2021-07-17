@@ -148,7 +148,7 @@ function Team() {
                     <img src={Krishnan} />
                   </div>
                   <div className="content">
-                    <a className="header" href="https://www.instagram.com/tarakeswar11/" target="_blank">Tarak</a>
+                    <a className="header" href="https://www.instagram.com/tarakeswar.n/" target="_blank">Tarak</a>
                     <div className="meta">
                       <span className="date">R&D Manager</span>
                     </div>
