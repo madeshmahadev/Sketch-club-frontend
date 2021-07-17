@@ -12,6 +12,7 @@ import logo from "../../assets/sk.png"
 function test() {
   return (
     <>
+        <div className="pusher">
         <Nav />
           <div className="ui vertical stripe segment">
             <div className="ui middle aligned stackable grid container">
@@ -25,6 +26,7 @@ function test() {
                 <div className="six wide right floated column">
                 </div>
               </div>
+             </div>
             </div>
               <SocialMedia />
             <Footer />
