@@ -15,7 +15,7 @@ import Shreya from "../../assets/avatar/shreya.jpeg"
 import Krishnan from "../../assets/avatar/tarak.jpg"
 import Vinaya from "../../assets/avatar/vinaya.jpg"
 import Giri from "../../assets/avatar/giri.jpg"
-import Bharat from "../../assets/avatar/bharat.JPG"
+import Bharat from "../../assets/avatar/bharat.jpg"
 import Gobind from "../../assets/avatar/gobind.jpg"
 
 function Team() {
