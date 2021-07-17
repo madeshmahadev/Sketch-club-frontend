@@ -31,6 +31,7 @@ function Hamburger() {
 			Contact
 		  </a>
 		  <a className="item" href="/stories">
+	  		<i className="book icon"></i>
 			Stories
 		  </a>
 	</div>
