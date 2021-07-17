@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Moment from "react-moment";
 
-function col ()
+function col ({ article }) =>
 {
   if(article.category.Name == "Upcoming Event")
     {
@@ -17,25 +17,12 @@ function col ()
 const Card = ({ article }) => {
   const imageUrl =  article.Media.url;
   return (
-
-
-
-
-
                 <a class="ui card" href={`/events/${article.id}`}>
                   <div class="image">
-                   {col()}
+                   {col /}
                       <img src={imageUrl} alt={article.Title} />
                   </div>
-
                 </a>
-
-
-
-
-
-
-
 
   );
 };
