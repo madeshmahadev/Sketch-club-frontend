@@ -244,11 +244,11 @@ function Team() {
                 </div>
 
               </div>
-          </div>
-		<div>
-				<h3> Other Members: </h3>
+          
+			<div>
+					<h3> Other Members: </h3>
+			</div>
 		</div>
-
             <SocialMedia />
             <Footer />
           </div>
