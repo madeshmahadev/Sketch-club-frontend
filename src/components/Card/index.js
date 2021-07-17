@@ -12,7 +12,7 @@ const Card = ({ article }) => {
 
                 <a class="ui card" href={`/events/${article.id}`}>
                   <div class="image">
-                  {
+                  
                     if(article.category.Name == "Upcoming Event")
                     {
                       return(<div className="ui teal ribbon label">{article.category.Name}</div>);
@@ -21,7 +21,7 @@ const Card = ({ article }) => {
                     {
                       return(<div className="ui yellow ribbon label">{article.category.Name}</div>);
                     }
-                  }
+                  
                       <img src={imageUrl} alt={article.Title} />
                   </div>
 
